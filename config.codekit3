@@ -34,6 +34,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Arrow .png" : {
+      "ft" : 32768,
+      "iS" : 761,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Arrow .png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/Burrito.jpg" : {
       "ft" : 16384,
       "iS" : 321243,
@@ -156,6 +169,19 @@
       "iS" : 28661,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Philosophy Icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Phone.png" : {
+      "ft" : 32768,
+      "iS" : 427,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Phone.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
