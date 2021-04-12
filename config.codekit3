@@ -72,6 +72,14 @@
       "oAP" : "\/dev\/content\/_images.html",
       "oF" : 0
     },
+    "\/dev\/content\/_menu.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_menu.html",
+      "oF" : 0
+    },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
