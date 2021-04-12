@@ -21,6 +21,19 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/Agua Fresca.2.jpg" : {
+      "ft" : 16384,
+      "iS" : 17300,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Agua Fresca.2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/Agua Fresca.jpg" : {
       "ft" : 16384,
       "iS" : 217318,
@@ -47,12 +60,38 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Burrito.2.jpg" : {
+      "ft" : 16384,
+      "iS" : 29887,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Burrito.2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/Burrito.jpg" : {
       "ft" : 16384,
       "iS" : 321243,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Burrito.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Collage 1.2.jpg" : {
+      "ft" : 16384,
+      "iS" : 307535,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Collage 1.2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -73,6 +112,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Collage 2.2.jpg" : {
+      "ft" : 16384,
+      "iS" : 71792,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Collage 2.2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/Collage 2.jpg" : {
       "ft" : 16384,
       "iS" : 416737,
@@ -82,6 +134,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Collage 3.2.png" : {
+      "ft" : 32768,
+      "iS" : 363926,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Collage 3.2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -134,6 +199,19 @@
       "oIPL" : 0,
       "opt" : 0,
       "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Hero.2.jpg" : {
+      "ft" : 16384,
+      "iS" : 382854,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Hero.2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -216,6 +294,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Quesadilla.2.jpg" : {
+      "ft" : 16384,
+      "iS" : 27074,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Quesadilla.2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/Quesadilla.jpg" : {
       "ft" : 16384,
       "iS" : 81285,
@@ -242,6 +333,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Salsa.2.jpg" : {
+      "ft" : 16384,
+      "iS" : 35126,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Salsa.2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/Salsa.jpg" : {
       "ft" : 16384,
       "iS" : 197083,
@@ -260,6 +364,19 @@
       "iS" : 23250,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Story Icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Taco.2.png" : {
+      "ft" : 32768,
+      "iS" : 142541,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Taco.2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
