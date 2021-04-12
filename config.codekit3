@@ -99,6 +99,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Facebook.png" : {
+      "ft" : 32768,
+      "iS" : 476,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Facebook.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/Food Philosophy.jpg" : {
       "ft" : 16384,
       "iS" : 300360,
@@ -134,6 +147,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Insta.png" : {
+      "ft" : 32768,
+      "iS" : 725,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Insta.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -251,6 +277,32 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Twitter.png" : {
+      "ft" : 32768,
+      "iS" : 564,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Twitter.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Youtube.png" : {
+      "ft" : 32768,
+      "iS" : 540,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Youtube.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
