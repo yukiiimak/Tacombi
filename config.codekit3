@@ -34,11 +34,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Arrow .png" : {
+    "\/deploy\/img\/Arrow.png" : {
       "ft" : 32768,
       "iS" : 761,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Arrow .png",
+      "oAP" : "\/deploy\/img\/Arrow.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
