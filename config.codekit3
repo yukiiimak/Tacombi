@@ -125,6 +125,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Magnifying Glass.png" : {
+      "ft" : 32768,
+      "iS" : 761,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Magnifying Glass.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Our Food Philosophy Icon.png" : {
+      "ft" : 32768,
+      "iS" : 28661,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Our Food Philosophy Icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Our Story Icon.png" : {
+      "ft" : 32768,
+      "iS" : 23250,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Our Story Icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/Our Story.jpg" : {
       "ft" : 16384,
       "iS" : 2439564,
@@ -147,6 +186,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Right Arrow.png" : {
+      "ft" : 32768,
+      "iS" : 276,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Right Arrow.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
