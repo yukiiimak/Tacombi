@@ -23,7 +23,7 @@
     },
     "\/deploy\/img\/Agua Fresca.jpg" : {
       "ft" : 16384,
-      "iS" : 687821,
+      "iS" : 217318,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Agua Fresca.jpg",
@@ -36,7 +36,7 @@
     },
     "\/deploy\/img\/Burrito.jpg" : {
       "ft" : 16384,
-      "iS" : 3123646,
+      "iS" : 321243,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Burrito.jpg",
@@ -49,7 +49,7 @@
     },
     "\/deploy\/img\/Collage 1.jpg" : {
       "ft" : 16384,
-      "iS" : 1299949,
+      "iS" : 229918,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Collage 1.jpg",
@@ -62,7 +62,7 @@
     },
     "\/deploy\/img\/Collage 2.jpg" : {
       "ft" : 16384,
-      "iS" : 2921213,
+      "iS" : 416737,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Collage 2.jpg",
@@ -75,7 +75,7 @@
     },
     "\/deploy\/img\/Collage 3.jpg" : {
       "ft" : 16384,
-      "iS" : 686197,
+      "iS" : 143082,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Collage 3.jpg",
@@ -88,7 +88,7 @@
     },
     "\/deploy\/img\/Food Philosophy.jpg" : {
       "ft" : 16384,
-      "iS" : 6460869,
+      "iS" : 300360,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Food Philosophy.jpg",
@@ -99,9 +99,22 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Glass.png" : {
+      "ft" : 32768,
+      "iS" : 761,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Glass.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/Hero.jpg" : {
       "ft" : 16384,
-      "iS" : 1853947,
+      "iS" : 284544,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Hero.jpg",
@@ -114,7 +127,7 @@
     },
     "\/deploy\/img\/Logo.png" : {
       "ft" : 32768,
-      "iS" : 10622,
+      "iS" : 6104,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Logo.png",
       "oF" : 0,
@@ -125,48 +138,9 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Magnifying Glass.png" : {
-      "ft" : 32768,
-      "iS" : 761,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Magnifying Glass.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Our Food Philosophy Icon.png" : {
-      "ft" : 32768,
-      "iS" : 28661,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Our Food Philosophy Icon.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Our Story Icon.png" : {
-      "ft" : 32768,
-      "iS" : 23250,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Our Story Icon.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/Our Story.jpg" : {
       "ft" : 16384,
-      "iS" : 2439564,
+      "iS" : 322456,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Our Story.jpg",
@@ -177,9 +151,22 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Philosophy Icon.png" : {
+      "ft" : 32768,
+      "iS" : 28661,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Philosophy Icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/Quesadilla.jpg" : {
       "ft" : 16384,
-      "iS" : 436047,
+      "iS" : 81285,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Quesadilla.jpg",
@@ -196,8 +183,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Right Arrow.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -205,7 +192,7 @@
     },
     "\/deploy\/img\/Salsa.jpg" : {
       "ft" : 16384,
-      "iS" : 4496108,
+      "iS" : 197083,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Salsa.jpg",
@@ -216,9 +203,22 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/Story Icon.png" : {
+      "ft" : 32768,
+      "iS" : 23250,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Story Icon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/Taco.jpg" : {
       "ft" : 16384,
-      "iS" : 4082658,
+      "iS" : 133945,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/Taco.jpg",
