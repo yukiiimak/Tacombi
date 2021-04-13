@@ -4,7 +4,7 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "C93073FD-C311-4CC5-98B8-37CBD915061A"
+      "uuidString" : "E9299FF6-0BBD-43CE-9129-E887CC110AD3"
     }
   ],
   "creatorBuild" : "34127",
@@ -512,8 +512,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 2
+      "oAP" : "\/dev\/index.html",
+      "oF" : 0
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,
@@ -707,10 +707,10 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 639889425.50755501,
+    "creationDate" : 640048265.44117403,
     "displayValue" : "Tacombi",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets_gray",
+    "iconImageName" : "brackets-forest",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
