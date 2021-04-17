@@ -16,22 +16,10 @@ ul {
 }
 
 .content {
-    display: grid;
-    grid-template-areas: 
-       "header"
-       "hero"
-       "images"
-       "menu"
-       "footer" ;
-
     margin-bottom: 24px;
 
     @include md {
         margin-bottom: 32px;
-    }
-
-    @include lg {
-        margin-bottom: 64px;
     }
 
     @include xl {
