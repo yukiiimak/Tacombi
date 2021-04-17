@@ -1,0 +1,60 @@
+/* =============
+    Base
+============= */
+figure {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+
+	li {
+		list-style: none;
+	}
+}
+
+.content {
+	display: grid;
+	grid-template-areas: 
+		"header"
+		"hero"
+		"images"
+		"menu"
+		"footer";
+
+	.header {
+		grid-area: header;
+	}
+	
+	.hero {
+		grid-area: hero;
+	}
+
+	.images {
+		grid-area: images;
+	}
+
+	.menu {
+		grid-area: menu;
+	}
+
+	.footer {
+		grid-area: footer;
+	}
+
+	margin-bottom: 24px;
+
+	@include md {
+		margin-bottom: 32px;
+	}
+
+	@include lg {
+		margin-bottom: 64px;
+	}
+
+	@include xl {
+		margin-bottom: 64px;
+	}
+}

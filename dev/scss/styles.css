@@ -370,6 +370,21 @@ ul li {
   grid-template-areas: "header" "hero" "images" "menu" "footer";
   margin-bottom: 24px;
 }
+.content .header {
+  grid-area: header;
+}
+.content .hero {
+  grid-area: hero;
+}
+.content .images {
+  grid-area: images;
+}
+.content .menu {
+  grid-area: menu;
+}
+.content .footer {
+  grid-area: footer;
+}
 @media (min-width: 768px) {
   .content {
     margin-bottom: 32px;
