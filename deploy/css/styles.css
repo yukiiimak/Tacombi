@@ -376,22 +376,8 @@ ul li {
 .content .hero {
   grid-area: hero;
 }
-.content .hero .grid-container {
-  display: grid;
-  grid-template-columns: 2.5fr 0.5fr;
-  grid-template-rows: 1fr 1fr 3fr 1fr 1fr 2fr 2fr 1fr 1fr;
-  gap: 0px 0px;
-}
-.content .hero section {
-  display: grid;
-  grid-template-columns: 10px auto 10px;
-}
 .content .hero .detailshide {
   display: none;
-}
-.content .hero .fas fa-caret-right {
-  display: inline;
-  align-items: flex-end;
 }
 .content .images {
   grid-area: images;

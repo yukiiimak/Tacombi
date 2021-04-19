@@ -29,27 +29,11 @@ ul {
 	}
 
 	.hero {
-		.grid-container {
-			display: grid;
-			grid-template-columns: 2.5fr 0.5fr;
-			grid-template-rows: 1fr 1fr 3fr 1fr 1fr 2fr 2fr 1fr 1fr;
-			gap: 0px 0px;
-		  }
-		  
-			grid-area: hero;
-			section {
-				display: grid;
-				grid-template-columns: 10px auto 10px;
-			}
+		grid-area: hero;
 
-			.detailshide {
-				display: none;
-			}
-
-			.fas fa-caret-right {
-				display: inline;
-				align-items: flex-end;
-			}
+		.detailshide {
+			display: none;
+		}
 	}
 
 	.images {
