@@ -29,13 +29,35 @@ ul {
 	}
 	
 	.hero {
-		grid-area: hero;
+		@include md{
+			grid-area: hero;
+			display: grid;
+			grid-template-columns: 40px auto;
+		}
+
+		.arrowlink{
+			display: block;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			padding: 15px 20px;
+		}
+
+		.detailshide{
+			display: none;
+
+			@include lg{
+				display: contents;
+			}
+		}
 	}
 
 	.images {
 		grid-area: images;
-	.collage3{
-	}
+		.collage3{
+			display: none!important;
+		}
 	}
 
 	.menu {
