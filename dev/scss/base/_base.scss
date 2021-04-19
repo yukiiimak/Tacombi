@@ -31,6 +31,20 @@ ul {
 	.hero {
 		grid-area: hero;
 
+		.strip1 {
+			display: grid;
+			grid-template-columns: 70px auto;
+		}
+
+		.strip2 {
+			display: grid;
+			grid-template-columns: 32px auto;
+
+				.circlepic {
+					justify-content: end;
+				}
+		}
+
 		.detailshide {
 			display: none;
 		}
@@ -38,6 +52,10 @@ ul {
 
 	.images {
 		grid-area: images;
+
+		.Collage3hide{
+			display: none !important;
+		}
 	}
 
 	.menu {

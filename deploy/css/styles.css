@@ -376,11 +376,25 @@ ul li {
 .content .hero {
   grid-area: hero;
 }
+.content .hero .strip1 {
+  display: grid;
+  grid-template-columns: 70px auto;
+}
+.content .hero .strip2 {
+  display: grid;
+  grid-template-columns: 32px auto;
+}
+.content .hero .strip2 .circlepic {
+  justify-content: end;
+}
 .content .hero .detailshide {
   display: none;
 }
 .content .images {
   grid-area: images;
+}
+.content .images .Collage3hide {
+  display: none !important;
 }
 .content .menu {
   grid-area: menu;
