@@ -372,8 +372,6 @@ ul li {
 }
 .content .header {
   grid-area: header;
-  grid-template-columns: 320px;
-  grid-template-rows: 262px 68px 68px 118px 118px;
 }
 .content .hero {
   grid-area: hero;
