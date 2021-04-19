@@ -366,11 +366,44 @@ ul li {
 }
 
 .content {
+  display: grid;
+  grid-template-areas: "header" "hero" "images" "menu" "footer";
   margin-bottom: 24px;
+}
+.content .header {
+  grid-area: header;
+}
+.content .header .fas fa-caret-right {
+  display: grid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+.content .header .detailshide {
+  display: none;
+}
+@media (min-width: 768px) {
+  .content .hero {
+    grid-area: hero;
+    display: grid;
+  }
+}
+.content .menu {
+  grid-area: menu;
+}
+.content .footer {
+  grid-area: footer;
 }
 @media (min-width: 768px) {
   .content {
     margin-bottom: 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .content {
+    margin-bottom: 64px;
   }
 }
 @media (min-width: 1200px) {
