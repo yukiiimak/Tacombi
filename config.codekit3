@@ -535,7 +535,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/base\/_base.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -729,7 +729,7 @@
   "projectAttributes" : {
     "creationDate" : 640048265.44117403,
     "displayValue" : "Tacombi",
-    "displayValueWasSetByUser" : 0,
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-forest",
     "iconImageWasSetByUser" : 0
   },

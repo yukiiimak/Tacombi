@@ -51,6 +51,14 @@ ul {
 				display: contents;
 			}
 		}
+
+		.circlepic{
+			display: block;
+			display: flex;
+			flex-direction: row;
+			align-items: right;
+			justify-content: space-between;
+		}
 	}
 
 	.images {
