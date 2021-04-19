@@ -25,15 +25,10 @@ ul {
 		"footer";
 
 	.header {
+		display: grid;
 		grid-area: header;
 
 		.fas fa-caret-right{
-			display: grid;
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			justify-content: space-between;
-			padding: 15px 20px;
 		}
 
 		.detailshide{

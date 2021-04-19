@@ -371,15 +371,8 @@ ul li {
   margin-bottom: 24px;
 }
 .content .header {
-  grid-area: header;
-}
-.content .header .fas fa-caret-right {
   display: grid;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 20px;
+  grid-area: header;
 }
 .content .header .detailshide {
   display: none;
