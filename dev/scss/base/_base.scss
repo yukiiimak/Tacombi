@@ -31,35 +31,26 @@ ul {
 
 	.hero {
 		grid-area: hero;
-		display: grid;
-		.img {
-			grid-template-columns: 252px;
-			grid-template-rows: 320px;
-		}
 
 		.strip1 {
 			display: grid;
-			grid-template-columns: 70px auto;
-			grid-template-rows: 68px 68px; 
 
 				.arrow {
-					align-items: center;
-					justify-content: end;
+					display: grid;
+					grid-template-columns: 500px auto;
 				}
-		}
-
-		.detailshide {
-			display: none;
+				
+				.detailshide {
+					display: none;
+				}
 		}
 
 		.strip2 {
 			display: grid;
-			grid-template-columns: 32px auto;
-			grid-template-rows: 118px 118px;
 
 				.circlepic {
-					align-items: center;
-					justify-content: end;
+					display: grid;
+					grid-template-columns: 400px auto;
 				}
 		}
 	}
@@ -67,8 +58,6 @@ ul {
 	.images {
 		grid-area: images;
 		display: grid;
-		align-items: start;
-		justify-content: left;
 
 		.Collage3hide{
 			display: none !important;
@@ -78,56 +67,23 @@ ul {
 	.menu {
 		grid-area: menu;
 		display: grid;
-		grid-template-columns: auto;
-		align-items: start;
-		justify-content: left;
 	}
 
 	.footer {
 		grid-area: footer;
-		display: grid;
-		.locations { 
-			grid-template-columns: auto;
-			align-items: start;
-			justify-content: left;
-
-			.address {
-				display: flex;
-				grid-template-columns: 30px;
-				align-items: right;
-			}
-
-			.phone {
-				display: flex;
-				grid-template-columns: 26px;
-				align-items: right;
-			}
-
-			.button {
+		
+			.socials ul {
 				display: grid;
-				align-items: right;
+				grid-template-columns: repeat(4, 50px);
 			}
 
-			.socials {
-				display: flex;
-				flex-direction: row;
-				align-items: center;
-				justify-content: space-evenly;
+			.locations {
+				 section ul li {
+					display: grid;
+					grid-template-columns: 20px 300px;
+				}
 			}
-		}
 	}
 
-	margin-bottom: 24px;
-
-	@include md {
-		margin-bottom: 32px;
-	}
-
-	@include lg {
-		margin-bottom: 64px;
-	}
-
-	@include xl {
-		margin-bottom: 64px;
-	}
+	// add list in order to target them
 }

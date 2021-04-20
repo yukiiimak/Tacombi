@@ -368,7 +368,6 @@ ul li {
 .content {
   display: grid;
   grid-template-areas: "header" "hero" "images" "menu" "footer";
-  margin-bottom: 24px;
 }
 .content .header {
   grid-area: header;
@@ -376,38 +375,27 @@ ul li {
 }
 .content .hero {
   grid-area: hero;
-  display: grid;
-}
-.content .hero .img {
-  grid-template-columns: 252px;
-  grid-template-rows: 320px;
 }
 .content .hero .strip1 {
   display: grid;
-  grid-template-columns: 70px auto;
-  grid-template-rows: 68px 68px;
 }
 .content .hero .strip1 .arrow {
-  align-items: center;
-  justify-content: end;
+  display: grid;
+  grid-template-columns: 500px auto;
 }
-.content .hero .detailshide {
+.content .hero .strip1 .detailshide {
   display: none;
 }
 .content .hero .strip2 {
   display: grid;
-  grid-template-columns: 32px auto;
-  grid-template-rows: 118px 118px;
 }
 .content .hero .strip2 .circlepic {
-  align-items: center;
-  justify-content: end;
+  display: grid;
+  grid-template-columns: 400px auto;
 }
 .content .images {
   grid-area: images;
   display: grid;
-  align-items: start;
-  justify-content: left;
 }
 .content .images .Collage3hide {
   display: none !important;
@@ -415,53 +403,17 @@ ul li {
 .content .menu {
   grid-area: menu;
   display: grid;
-  grid-template-columns: auto;
-  align-items: start;
-  justify-content: left;
 }
 .content .footer {
   grid-area: footer;
+}
+.content .footer .socials ul {
   display: grid;
+  grid-template-columns: repeat(4, 50px);
 }
-.content .footer .locations {
-  grid-template-columns: auto;
-  align-items: start;
-  justify-content: left;
-}
-.content .footer .locations .address {
-  display: flex;
-  grid-template-columns: 30px;
-  align-items: right;
-}
-.content .footer .locations .phone {
-  display: flex;
-  grid-template-columns: 26px;
-  align-items: right;
-}
-.content .footer .locations .button {
+.content .footer .locations section ul li {
   display: grid;
-  align-items: right;
-}
-.content .footer .locations .socials {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-}
-@media (min-width: 768px) {
-  .content {
-    margin-bottom: 32px;
-  }
-}
-@media (min-width: 1024px) {
-  .content {
-    margin-bottom: 64px;
-  }
-}
-@media (min-width: 1200px) {
-  .content {
-    margin-bottom: 64px;
-  }
+  grid-template-columns: 20px 300px;
 }
 
 /* =============
