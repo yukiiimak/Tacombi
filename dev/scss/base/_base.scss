@@ -34,11 +34,7 @@ ul {
 
 		.strip1 {
 			display: grid;
-
-				.arrow {
-					display: grid;
-					grid-template-columns: 500px auto;
-				}
+			grid-template-columns: 500px auto;
 				
 				.detailshide {
 					display: none;
@@ -47,11 +43,7 @@ ul {
 
 		.strip2 {
 			display: grid;
-
-				.circlepic {
-					display: grid;
-					grid-template-columns: 400px auto;
-				}
+			grid-template-columns: 400px auto;
 		}
 	}
 
