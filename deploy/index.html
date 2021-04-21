@@ -22,57 +22,67 @@
             </header>
             
             <section class="hero">
-                                
-                                <article>
-                                <input type="text" placeholder="Search"> 
-                                <button><i class="fas fa-search"></i></button>
-                                </article>
                         
-                                <img class="img" src="img/Hero.2.jpg" alt="Sauce being poured on three tacos" />
+                            <input type="text" placeholder="Search"> 
+                            <button><i class="fas fa-search"></i></button>
                         
-                                <div class="strip1">
-                                    <article>
-                                    <h3> Reservations </h3>
-                                    <p>
-                                        Tacombi welcomes reservations at all our locations
-                                    </p>
-                                    <h4 class="detailshide">Details </h4>
-                                    <div class="arrow">
+                            <img class="img" src="img/Hero.2.jpg" alt="Sauce being poured on three tacos" />
+                        
+                            <article class="strip1">
+                                <a href="#">
+                                    <div>
+                                        <h3> Reservations </h3>
+                                        <p>
+                                            Tacombi welcomes reservations at all our locations
+                                        </p>
+                                    </div>
+                        
+                                    <div>
+                                        <h4 class="detailshide">Details </h4>
                                         <a href="#"><i class="fas fa-caret-right"></i></a>
                                     <div>
-                                    </article>
-                        
-                                    <article>
+                                </a>    
+                                
+                                <a href="#">
+                                    <div>
                                         <h3> Order Online </h3>
                                         <p>
                                             Find your nearest Tacombi to-go hub
                                         </p>
+                                    </div>
+                                    
+                                    <div>
                                         <h4 class="detailshide">Details </h4>
-                                        <div class="arrow">
-                                            <a href="#"><i class="fas fa-caret-right"></i></a>
-                                        </div>
-                                    </article>
+                                        <a href="#"><i class="fas fa-caret-right"></i></a>
+                                    </div>
+                                </a>
+                            </article>
+                        
+                            <article class="strip2">
+                                <div>
+                                    <h2> Our Story </h2>
+                                    <div>
+                                        <a href="#">Read Here</a>
+                                    </div>
                                 </div>
                         
-                                <div class="strip2">
-                                    <article>
-                                        <h2> Our Story </h2>
-                                        <img class="circlepic" src="img/Story Icon.png" alt="Tortillas in a circle" />
-                                        <div>
-                                            <a href="#">Read Here</a>
-                                        </div>
-                                    </article>
-                        
-                                    <article>
-                                        <h2> Our Food Philosophy </h2>
-                                        <img class="circlepic" src="img/Philosophy Icon.png" alt="Peppers in a circle" />
-                                        <div>
-                                            <a href="#">Read Here</a>
-                                        </div>
-                                    </article>
+                                <div>
+                                    <img class="circlepic" src="img/Story Icon.png" alt="Tortillas in a circle" />
                                 </div>
-                                
-                            </section>
+                        
+                                <div>
+                                    <h2> Our Food Philosophy </h2>
+                                    <div>
+                                        <a href="#">Read Here</a>
+                                    </div>
+                                </div>
+                        
+                                <div>
+                                    <img class="circlepic" src="img/Philosophy Icon.png" alt="Peppers in a circle" />
+                                </div>
+                            </article>
+                            
+                        </section>
             <section class="images">
                                         <img src="img/Collage 1.2.jpg" alt="Three unfolded tacos on a plate" />
                                         <img src="img/Collage 2.2.jpg" alt="Juice being squeezed onto tacos" />
@@ -143,36 +153,46 @@
             <footer class="footer">
                                                             
                                                                 <section class="locations">
-                                                                    <h3> Locations </h3>
-                                                                    <h4> Upper East Side </h4>
-                                                                    <img src="img/Arrow.png" alt="Arrow icon pointing to the north right" />
-                                                                    <div>
-                                                                        <a class="address" href="#">202 East 70th Street <br> New York, NY 10021</a>
-                                                                    </div>
-                                                                    <img src="img/Phone.png" alt="Phone icon" />
-                                                                    <div>
-                                                                        <a class="phone" href="#">(646) 726-4302</a>
-                                                                    </div>
-                                                                    <hr>
-                                                                    <h4> Williamsburg </h4>
-                                                                    <img src="img/Arrow.png" alt="Arrow icon pointing to the north right" />
-                                                                    <div>
-                                                                        <a class="address" href="#">242 Metropolitan Ave <br> Brooklyn, NY 11211</a>
-                                                                    </div>
-                                                                    <img src="img/Phone.png" alt="Phone icon" />
-                                                                    <div>
-                                                                        <a class="phone" href="#">(718) 599-3496</a>
-                                                                    </div>
-                                                                    <hr>
-                                                                    <h4> Empire State Building </h4>
-                                                                    <img src="img/Arrow.png" alt="Arrow icon pointing to the north right" />
-                                                                    <div>
-                                                                        <a class="address" href="#">23 West 33rd Street <br> New York, NY 10118</a>
-                                                                    </div>
-                                                                    <img src="img/Phone.png" alt="Phone icon" />
-                                                                    <div>
-                                                                        <a class="phone" href="#">(212) 967-5555</a>
-                                                                    </div>
+                                                                    ul {
+                                                                        <li>
+                                                                            <h3> Locations </h3>
+                                                                            <h4> Upper East Side </h4>
+                                                                            <img src="img/Arrow.png" alt="Arrow icon pointing to the north right" />
+                                                                            <div>
+                                                                                <a href="#">202 East 70th Street <br> New York, NY 10021</a>
+                                                                            </div>
+                                                                            <img src="img/Phone.png" alt="Phone icon" />
+                                                                            <div>
+                                                                                <a href="#">(646) 726-4302</a>
+                                                                            </div>
+                                                                            <hr>
+                                                                        </li>
+                                                                        
+                                                                        <li>
+                                                                            <h4> Williamsburg </h4>
+                                                                            <img src="img/Arrow.png" alt="Arrow icon pointing to the north right" />
+                                                                            <div>
+                                                                                <a href="#">242 Metropolitan Ave <br> Brooklyn, NY 11211</a>
+                                                                            </div>
+                                                                            <img src="img/Phone.png" alt="Phone icon" />
+                                                                            <div>
+                                                                                <a href="#">(718) 599-3496</a>
+                                                                            </div>
+                                                                            <hr>
+                                                                        </li>
+                                                            
+                                                                        <li>
+                                                                            <h4> Empire State Building </h4>
+                                                                            <img src="img/Arrow.png" alt="Arrow icon pointing to the north right" />
+                                                                            <div>
+                                                                                <a href="#">23 West 33rd Street <br> New York, NY 10118</a>
+                                                                            </div>
+                                                                            <img src="img/Phone.png" alt="Phone icon" />
+                                                                            <div>
+                                                                                <a href="#">(212) 967-5555</a>
+                                                                            </div>
+                                                                        </li>
+                                                                    }
                                                                 </section>
                                                             
                                                                 <section class="email">
@@ -183,16 +203,14 @@
                                                                     </div>
                                                                 </section>
                                                             
-                                                                <section>
+                                                                <section class="socials">
                                                                     <h3> Follow us </h3>
-                                                                    <div class="socials">
                                                                         <ul>
                                                                             <li><a href="#"><img src="img/Youtube.png" alt="Youtube" /></a></li>
                                                                             <li><a href="#"><img src="img/Twitter.png" alt="Twitter" /></a></li>
                                                                             <li><a href="#"><img src="img/Insta.png" alt="Insta" /></a></li>
                                                                             <li><a href="#"><img src="img/Facebook.png" alt="Facebook"/></a></li>
                                                                         </ul>
-                                                                    </div>
                                                                 </section>
                                                                 
                                                             </footer>
