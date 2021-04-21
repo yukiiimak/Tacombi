@@ -381,6 +381,10 @@ ul li {
   grid-template-columns: 300px auto;
   grid-gap: 10px;
 }
+.content .hero .strip1 a right {
+  display: grid;
+  grid-template-columns: 600px auto;
+}
 .content .hero .strip1 .detailshide {
   display: none;
 }
@@ -409,9 +413,10 @@ ul li {
 .content .footer .locations {
   display: grid;
 }
-.content .footer .place {
+.content .footer .addressnumber {
   display: grid;
-  grid-template-columns: 20px 200px;
+  grid-template-columns: 30px 300px;
+  grid-gap: 10px;
 }
 @media (min-width: 768px) {
   .content .footer {

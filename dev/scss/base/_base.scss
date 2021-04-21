@@ -36,6 +36,11 @@ ul {
 			display: grid;
 			grid-template-columns: 300px auto;
 			grid-gap: 10px;
+
+			a right {
+				display: grid;
+				grid-template-columns: 600px auto;
+			}
 				
 			.detailshide {
 				display: none;
@@ -74,9 +79,10 @@ ul {
 			display: grid;
 		}
 
-		.place {
+		.addressnumber {
 			display: grid;
-			grid-template-columns: 20px 200px;
+			grid-template-columns: 30px 300px;
+			grid-gap: 10px
 		}
 
 		@include md {
