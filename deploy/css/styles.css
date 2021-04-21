@@ -385,7 +385,7 @@ ul li {
 }
 .content .hero .strip2 {
   display: grid;
-  grid-template-columns: 400px auto;
+  grid-template-columns: 300px auto;
 }
 .content .images {
   grid-area: images;
