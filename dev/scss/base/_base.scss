@@ -34,7 +34,8 @@ ul {
 
 		.strip1 {
 			display: grid;
-			grid-template-columns: 500px auto;
+			grid-template-columns: 300px auto;
+			grid-gap: 10px;
 				
 			.detailshide {
 				display: none;
@@ -64,15 +65,24 @@ ul {
 	.footer {
 		grid-area: footer;
 		
-			.socials ul {
-				display: grid;
-				grid-template-columns: repeat(4, 50px);
-			}
+		.socials ul {
+			display: grid;
+			grid-template-columns: repeat(4, 50px);
+		}
 
-			.locations {
-				display: grid;
-				grid-template-columns: 20px 300px;
-			}
+		.locations {
+			display: grid;
+		}
+
+		.place {
+			display: grid;
+			grid-template-columns: 20px 200px;
+		}
+
+		@include md {
+			display: grid;
+			grid-template-columns: 300px 300px;
+		}
 	
 	}
 }

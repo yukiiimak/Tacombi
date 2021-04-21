@@ -378,7 +378,8 @@ ul li {
 }
 .content .hero .strip1 {
   display: grid;
-  grid-template-columns: 500px auto;
+  grid-template-columns: 300px auto;
+  grid-gap: 10px;
 }
 .content .hero .strip1 .detailshide {
   display: none;
@@ -407,7 +408,16 @@ ul li {
 }
 .content .footer .locations {
   display: grid;
-  grid-template-columns: 20px 300px;
+}
+.content .footer .place {
+  display: grid;
+  grid-template-columns: 20px 200px;
+}
+@media (min-width: 768px) {
+  .content .footer {
+    display: grid;
+    grid-template-columns: 300px 300px;
+  }
 }
 
 /* =============
