@@ -70,12 +70,9 @@ ul {
 			}
 
 			.locations {
-				 section ul li {
-					display: grid;
-					grid-template-columns: 20px 300px;
-				}
+				display: grid;
+				grid-template-columns: 20px 300px;
 			}
+	
 	}
-
-	// add list in order to target them
 }

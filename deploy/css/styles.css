@@ -405,7 +405,7 @@ ul li {
   display: grid;
   grid-template-columns: repeat(4, 50px);
 }
-.content .footer .locations section ul li {
+.content .footer .locations {
   display: grid;
   grid-template-columns: 20px 300px;
 }
