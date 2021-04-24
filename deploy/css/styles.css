@@ -386,9 +386,6 @@ ul li {
   grid-template-columns: 300px auto;
   grid-gap: 30px;
 }
-.content .hero .strip1 .detailshide {
-  display: none;
-}
 .content .hero .strip2 {
   display: grid;
   grid-template-columns: 300px auto;
