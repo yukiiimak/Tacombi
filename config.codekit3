@@ -9,18 +9,6 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
-    "\/deploy\/css\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/css\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
-    },
     "\/deploy\/img\/Agua Fresca.2.jpg" : {
       "ft" : 16384,
       "iS" : 17300,
@@ -424,14 +412,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/index.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/index.html",
-      "oF" : 0
-    },
     "\/deploy\/js\/scripts-min.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -449,62 +429,6 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/design\/Tacombi .sketch",
-      "oF" : 0
-    },
-    "\/dev\/content\/_footer.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/_footer.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/_header.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/_header.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/_hero.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/_hero.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/_images.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/_images.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/_menu.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/_menu.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/_search.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/_search.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/head.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/head.html",
       "oF" : 0
     },
     "\/dev\/global\/scripts.kit" : {
@@ -533,20 +457,6 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
-    },
-    "\/dev\/scss\/base\/_base.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/base\/_base.css",
-      "oF" : 1,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
     },
     "\/dev\/scss\/base\/_normalize.scss" : {
       "aP" : 0,
@@ -681,18 +591,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev\/scss\/styles.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
