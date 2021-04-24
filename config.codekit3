@@ -99,25 +99,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Collage 1.jpg" : {
+    "\/deploy\/img\/Collage 1used.jpg" : {
       "ft" : 16384,
       "iS" : 229918,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Collage 1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/Collage 2.2.jpg" : {
-      "ft" : 16384,
-      "iS" : 71792,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/Collage 2.2.jpg",
+      "oAP" : "\/deploy\/img\/Collage 1used.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -138,15 +125,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Collage 3.2.png" : {
-      "ft" : 32768,
-      "iS" : 363926,
+    "\/deploy\/img\/Collage 2used.jpg" : {
+      "ft" : 16384,
+      "iS" : 71792,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/Collage 3.2.png",
+      "oAP" : "\/deploy\/img\/Collage 2used.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -160,6 +147,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Collage 3usedpng.png" : {
+      "ft" : 32768,
+      "iS" : 363926,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Collage 3usedpng.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -629,6 +629,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_navigation.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/content\/_hero-image.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/_hero-image.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
