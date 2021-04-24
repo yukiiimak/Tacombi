@@ -397,7 +397,7 @@ ul li {
   grid-area: images;
   display: grid;
 }
-.content .images .Collage3hide {
+.content .images .twotacos {
   display: none !important;
 }
 .content .menu {
@@ -450,6 +450,25 @@ p {
 .hero-image {
   background: url(/deploy/img/Hero.2.jpg);
   background-repeat: no-repeat;
-  width: auto;
+  width: 100%;
   height: 888px;
+}
+
+.images .threetacos {
+  background: url(/deploy/img/Collage1used.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1250px;
+}
+.images .juicetacos {
+  background: url(/deploy/img/Collage2used.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 375px;
+}
+.images .twotacos {
+  background: url(/deploy/img/Collage3used.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 377px;
 }
