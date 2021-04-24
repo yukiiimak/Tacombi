@@ -366,60 +366,36 @@ ul li {
 }
 
 .content {
-<<<<<<< Updated upstream
-  margin-bottom: 24px;
-=======
   display: grid;
   grid-template-areas: "header" "search" "hero" "images" "menu" "footer";
+  margin-bottom: 24px;
 }
 .content .header {
   grid-area: header;
 }
+.content .search {
+  grid-area: search;
+}
 .content .hero {
   grid-area: hero;
 }
-.content .hero .strip1 {
-  display: grid;
-  grid-template-columns: 300px auto;
-  grid-gap: 10px;
-}
-.content .hero .strip1 .detailshide {
-  display: none;
-}
-.content .hero .strip2 {
-  display: grid;
-  grid-template-columns: 300px auto;
-}
 .content .images {
   grid-area: images;
-  display: grid;
-}
-.content .images .Collage3hide {
-  display: none !important;
 }
 .content .menu {
   grid-area: menu;
-  display: grid;
 }
 .content .footer {
   grid-area: footer;
 }
-.content .footer .socials ul {
-  display: grid;
-  grid-template-columns: repeat(4, 50px);
-}
-.content .footer .locations {
-  display: grid;
-}
-.content .footer .addressnumber {
-  display: grid;
-  grid-template-columns: 30px 300px;
-  grid-gap: 10px;
->>>>>>> Stashed changes
-}
 @media (min-width: 768px) {
   .content {
     margin-bottom: 32px;
+  }
+}
+@media (min-width: 1024px) {
+  .content {
+    margin-bottom: 64px;
   }
 }
 @media (min-width: 1200px) {
