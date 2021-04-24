@@ -20,6 +20,7 @@ ul {
 	grid-template-areas: 
 		"header"
 		"search"
+		"hero-image"
 		"hero"
 		"images"
 		"menu"
@@ -31,6 +32,10 @@ ul {
 
 	.search {
 		grid-area: search;
+	}
+
+	.hero-image {
+		grid-area: hero-image;
 	}
 
 	.hero {
