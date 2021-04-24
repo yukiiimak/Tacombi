@@ -367,11 +367,13 @@ ul li {
 
 .content {
   display: grid;
-  grid-template-areas: "header" "hero" "images" "menu" "footer";
+  grid-template-areas: "header" "search" "hero" "images" "menu" "footer";
 }
 .content .header {
   grid-area: header;
-  display: flex;
+}
+.content .search {
+  grid-area: search;
 }
 .content .hero {
   grid-area: hero;
