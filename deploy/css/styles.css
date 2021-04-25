@@ -450,7 +450,6 @@ ul li {
 .content .footer .socials {
   display: grid;
   grid-column: 3/6;
-  grid-row: 2/2;
 }
 .content .footer .socials ul {
   display: grid;

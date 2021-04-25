@@ -117,14 +117,13 @@ ul {
 
 		.socials {
 
+			display: grid;
+			grid-column: 3 /6;
+			
 			ul {
 				display: grid;
 				grid-template-columns: repeat(4, 50px);
 			}
-
-			display: grid;
-			grid-column: 3 /6;
-			grid-row: 2 / 2;
 		}
 	}
 }
