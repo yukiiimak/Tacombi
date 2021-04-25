@@ -383,12 +383,19 @@ ul li {
 }
 .content .hero .strip1 {
   display: grid;
-  grid-template-columns: 300px auto;
-  grid-gap: 100px;
+}
+@media (min-width: 768px) {
+  .content .hero .strip1 {
+    grid-template-columns: 500px auto;
+  }
 }
 .content .hero .strip2 {
   display: grid;
-  grid-template-columns: 300px auto;
+}
+@media (min-width: 768px) {
+  .content .hero .strip2 {
+    grid-template-columns: 300px auto;
+  }
 }
 .content .images {
   grid-area: images;

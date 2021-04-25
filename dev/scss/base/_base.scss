@@ -43,13 +43,18 @@ ul {
 
 		.strip1 {
 			display: grid;
-			grid-template-columns: 300px auto;
-			grid-gap: 100px;
+
+			@include md {
+				grid-template-columns: 500px auto;
+			}
 		}
 
 		.strip2 {
 			display: grid;
-			grid-template-columns: 300px auto;
+
+			@include md {
+				grid-template-columns: 300px auto;
+			}
 		}
 	}
 
