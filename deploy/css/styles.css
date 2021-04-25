@@ -383,7 +383,7 @@ ul li {
 }
 .content .hero .strip1 {
   display: grid;
-  grid-template-columns: 300px auto;
+  grid-template-columns: repeat(2, 500px);
   grid-gap: 30px;
 }
 .content .hero .strip2 {
