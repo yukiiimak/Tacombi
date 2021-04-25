@@ -451,7 +451,6 @@ ul li {
   display: grid;
   grid-template-columns: repeat(4, 50px);
   grid-column: 3/6;
-  grid-row: 6/12;
 }
 
 /* =============
