@@ -63,6 +63,21 @@ ul {
 		grid-area: images;
 		display: grid;
 
+		@include md {
+			grid-template-columns: repeat(12, 1fr);
+			grid-template-rows: repeat(8, 1fr);
+
+			.threetacos {
+				grid-column: span 6;
+				grid-row: span 8;
+			}
+
+			.juicetacos {
+				grid-column: span 6;
+				grid-row: span 8;
+			}
+		}
+
 		.twotacos{
 			display: none !important;
 		}

@@ -402,6 +402,20 @@ ul li {
   grid-area: images;
   display: grid;
 }
+@media (min-width: 768px) {
+  .content .images {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+  }
+  .content .images .threetacos {
+    grid-column: span 6;
+    grid-row: span 8;
+  }
+  .content .images .juicetacos {
+    grid-column: span 6;
+    grid-row: span 8;
+  }
+}
 .content .images .twotacos {
   display: none !important;
 }
