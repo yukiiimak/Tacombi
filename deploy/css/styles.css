@@ -421,10 +421,21 @@ ul li {
 }
 .content .menu {
   grid-area: menu;
+}
+.content .menu .food {
   display: grid;
+  grid-template-columns: 360px 360px;
+  grid-gap: 15px;
+  justify-content: center;
 }
 .content .footer {
   grid-area: footer;
+}
+@media (min-width: 768px) {
+  .content .footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
 }
 .content .footer .socials ul {
   display: grid;
@@ -437,12 +448,6 @@ ul li {
   display: grid;
   grid-template-columns: 30px 300px;
   grid-gap: 10px;
-}
-@media (min-width: 768px) {
-  .content .footer {
-    display: grid;
-    grid-template-columns: 300px 300px;
-  }
 }
 
 /* =============
