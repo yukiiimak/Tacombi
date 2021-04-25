@@ -99,7 +99,6 @@ ul {
 		@include md {
 			display: grid;
 			grid-template-columns: repeat(12, 1fr);
-			grid-template-rows: repeat(6, 1fr);
 		}
 
 		.locations {
@@ -113,12 +112,19 @@ ul {
 
 		.email {
 			grid-column: 3 / 6;
+			grid-row: 1 / 1;
 		}
 
-		.socials ul {
+		.socials {
+
+			ul {
+				display: grid;
+				grid-template-columns: repeat(4, 50px);
+			}
+
 			display: grid;
-			grid-template-columns: repeat(4, 50px);
 			grid-column: 3 /6;
+			grid-row: 2 / 2;
 		}
 	}
 }

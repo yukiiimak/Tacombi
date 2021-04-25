@@ -434,7 +434,6 @@ ul li {
   .content .footer {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(6, 1fr);
   }
 }
 .content .footer .locations {
@@ -446,11 +445,16 @@ ul li {
 }
 .content .footer .email {
   grid-column: 3/6;
+  grid-row: 1/1;
+}
+.content .footer .socials {
+  display: grid;
+  grid-column: 3/6;
+  grid-row: 2/2;
 }
 .content .footer .socials ul {
   display: grid;
   grid-template-columns: repeat(4, 50px);
-  grid-column: 3/6;
 }
 
 /* =============
