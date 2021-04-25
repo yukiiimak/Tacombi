@@ -53,7 +53,8 @@ ul {
 			display: grid;
 
 			@include md {
-				grid-template-columns: 300px auto;
+				grid-template-columns: repeat(6, 1fr);
+				grid-gap: 70px;
 			}
 		}
 	}
