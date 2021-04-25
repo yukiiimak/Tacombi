@@ -54,7 +54,6 @@ ul {
 
 			@include md {
 				grid-template-columns: repeat(6, 1fr);
-				grid-gap: 70px;
 			}
 		}
 	}
@@ -100,11 +99,7 @@ ul {
 		@include md {
 			display: grid;
 			grid-template-columns: repeat(12, 1fr);
-		}
-		
-		.socials ul {
-			display: grid;
-			grid-template-columns: repeat(4, 50px);
+			grid-template-rows: repeat(6, 1fr);
 		}
 
 		.locations {
@@ -114,8 +109,17 @@ ul {
 		.addressnumber {
 			display: grid;
 			grid-template-columns: 30px 300px;
-			grid-gap: 10px
 		}
-	
+
+		.email {
+			grid-column: 3 / 6;
+		}
+
+		.socials ul {
+			display: grid;
+			grid-template-columns: repeat(4, 50px);
+			grid-column: 3 /6;
+			grid-row: 6 / 12;
+		}
 	}
 }

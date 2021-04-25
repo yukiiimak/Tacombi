@@ -395,7 +395,6 @@ ul li {
 @media (min-width: 768px) {
   .content .hero .strip2 {
     grid-template-columns: repeat(6, 1fr);
-    grid-gap: 70px;
   }
 }
 .content .images {
@@ -435,11 +434,8 @@ ul li {
   .content .footer {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
   }
-}
-.content .footer .socials ul {
-  display: grid;
-  grid-template-columns: repeat(4, 50px);
 }
 .content .footer .locations {
   display: grid;
@@ -447,7 +443,15 @@ ul li {
 .content .footer .addressnumber {
   display: grid;
   grid-template-columns: 30px 300px;
-  grid-gap: 10px;
+}
+.content .footer .email {
+  grid-column: 3/6;
+}
+.content .footer .socials ul {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-column: 3/6;
+  grid-row: 6/12;
 }
 
 /* =============
