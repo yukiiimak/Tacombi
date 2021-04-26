@@ -65,6 +65,7 @@ ul {
 		@include md {
 			grid-template-columns: repeat(12, 1fr);
 			grid-template-rows: repeat(8, 1fr);
+			grid-gap: 80px;
 
 			.threetacos {
 				grid-column: span 6;
@@ -118,7 +119,7 @@ ul {
 		.socials {
 
 			display: grid;
-			grid-column: 3 /6;
+			grid-column: 3 / 6;
 			
 			ul {
 				display: grid;

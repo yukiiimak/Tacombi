@@ -405,6 +405,7 @@ ul li {
   .content .images {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(8, 1fr);
+    grid-gap: 80px;
   }
   .content .images .threetacos {
     grid-column: span 6;
