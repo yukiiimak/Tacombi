@@ -1,40 +1,47 @@
-.menu-image {
+.entradas {
+    background: url("../img/Salsa.2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 184px;
+    
+}
+
+
+.tacos {
+    background: url("../img/Taco.2.png");
+    background-repeat: no-repeat;
     background-size: cover;
     width: 350px;
     height: 184px;
 }
 
-#entradas {
-    .menu-image {
-        background: url(/deploy/img/Salsa.2.jpg);
-        background-repeat: no-repeat;
-    }
+
+
+.quesadillas {
+    background: url("../img/Quesadilla.2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 184px;
 }
 
-#tacos {
-    .menu-image {
-        background: url(/deploy/img/Taco.2.png);
-        background-repeat: no-repeat;
-    }
+
+
+.burritas {
+    background: url("../img/Burrito.2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 184px;
 }
 
-#quesadillas {
-    .menu-image {
-        background: url(/deploy/img/Quesadilla.2.jpg);
-        background-repeat: no-repeat;
-    }
+
+.aguas {
+    background: url("../img/Agua-Fresca.2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 184px;
 }
 
-#burritas {
-    .menu-image {
-        background: url(/deploy/img/Burrito.2.jpg);
-        background-repeat: no-repeat;
-    }
-}
-
-#aguas {
-    .menu-image {
-        background: url(/deploy/img/Agua-Fresca.2.jpg);
-        background-repeat: no-repeat;
-    }
-}
