@@ -503,3 +503,34 @@ p {
   width: 100%;
   height: 377px;
 }
+
+.menu-image {
+  background-size: cover;
+  width: 350px;
+  height: 184px;
+}
+
+#entradas .menu-image {
+  background: url(/deploy/img/Salsa.2.jpg);
+  background-repeat: no-repeat;
+}
+
+#tacos .menu-image {
+  background: url(/deploy/img/Taco.2.png);
+  background-repeat: no-repeat;
+}
+
+#quesadillas .menu-image {
+  background: url(/deploy/img/Quesadilla.2.jpg);
+  background-repeat: no-repeat;
+}
+
+#burritas .menu-image {
+  background: url(/deploy/img/Burrito.2.jpg);
+  background-repeat: no-repeat;
+}
+
+#aguas .menu-image {
+  background: url(/deploy/img/Agua-Fresca.2.jpg);
+  background-repeat: no-repeat;
+}
