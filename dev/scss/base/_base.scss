@@ -33,10 +33,12 @@ ul {
 	.search {
 		grid-area: search;
 
-		form {
-			display: grid;
-			grid-template-columns: 85% auto;
-			grid-gap: 10px;
+		@include lg {
+			form {
+				display: grid;
+				grid-template-columns: 85% auto;
+				grid-gap: 10px;
+			}
 		}
 	}
 
@@ -51,15 +53,19 @@ ul {
 			display: grid;
 
 			@include md {
-				grid-template-columns: 500px auto;
+				grid-template-columns: auto auto;
 			}
 		}
 
 		.strip2 {
 			display: grid;
 
-			@include md {
-				grid-template-columns: repeat(6, 1fr);
+			.circlepic{
+				grid-template-columns: repeat(4, 1fr);
+			}
+
+			@include lg {
+				grid-template-columns: 54% auto;
 			}
 		}
 	}
