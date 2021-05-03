@@ -32,6 +32,12 @@ ul {
 
 	.search {
 		grid-area: search;
+
+		form {
+			display: grid;
+			grid-template-columns: 85% auto;
+			grid-gap: 10px;
+		}
 	}
 
 	.hero-image {

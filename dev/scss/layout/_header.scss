@@ -4,32 +4,12 @@
 header {
 	display: grid;
 	background-color: $limemist;
+	height: 103px;
 	padding: 10px;
 
-	@include xl {
-		grid-template-areas: ". header .";
-		grid-template-columns: auto 1200px auto;
-	}
-
-	>div {
-		@include xl {
-			grid-area: header;
-		}
-
-		section {
-			padding: 15px;
-
-			img {
-				width: 96px;
-
-				@include md {
-					width: 123px;
-				}
-
-				@include lg {
-					width: 150px;
-				}
-			}
-		}
+	.image {
+		margin-left: 17px;
+		margin-top: 32px;
+		margin-bottom: 32px;
 	}
 }
