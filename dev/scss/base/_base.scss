@@ -124,6 +124,7 @@ ul {
 			"threetacos threetacos juicetacos juicetacos"
 			"threetacos threetacos juicetacos juicetacos"
 			"threetacos threetacos twotacos twotacos";
+			margin-bottom: 56px;
 		}
 	}
 
@@ -137,6 +138,19 @@ ul {
 				grid-template-columns: 360px 360px;
 				grid-gap: 15px;
 				justify-content: center;
+			}
+		}
+
+		@include lg {
+			.food {
+				display: grid;
+				grid-template-columns: 360px 360px 360px;
+				grid-template-areas: 
+				"entradaxs tacos quesadillas"
+				". burritas aguas .";
+				margin-bottom: 56px;
+				margin-left: 16px;
+				margin-right: 16px;
 			}
 		}
 	}

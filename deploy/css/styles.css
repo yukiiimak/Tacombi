@@ -452,6 +452,7 @@ ul li {
     grid-template-columns: repeat(4, 2fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "threetacos threetacos juicetacos juicetacos" "threetacos threetacos juicetacos juicetacos" "threetacos threetacos twotacos twotacos";
+    margin-bottom: 56px;
   }
 }
 .content .menu {
@@ -464,6 +465,16 @@ ul li {
     grid-template-columns: 360px 360px;
     grid-gap: 15px;
     justify-content: center;
+  }
+}
+@media (min-width: 1024px) {
+  .content .menu .food {
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-areas: "entradaxs tacos quesadillas" ". burritas aguas .";
+    margin-bottom: 56px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }
 .content .footer {
@@ -534,156 +545,9 @@ header .image {
 /* =============
     Footer
 ============= */
-footer {
+.footer {
   background-color: #E4FFC0;
-  color: #C8C7BC;
-  padding: 16px;
-}
-@media (min-width: 1200px) {
-  footer {
-    display: grid;
-    grid-template-areas: ". footer .";
-    grid-template-columns: auto 1200px auto;
-  }
-}
-footer > div {
-  display: grid;
-  gap: 24px;
-}
-@media (min-width: 768px) {
-  footer > div {
-    grid-template-areas: "locations newsletter" "locations social";
-    grid-template-columns: 50% auto;
-  }
-}
-@media (min-width: 1024px) {
-  footer > div {
-    grid-template-areas: "locations newsletter social";
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-@media (min-width: 1200px) {
-  footer > div {
-    grid-area: footer;
-  }
-}
-footer > div h1 {
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin-bottom: 16px;
-}
-footer > div section {
-  padding-top: 16px;
-}
-footer > div section h2 {
-  font-size: 1rem;
-  font-weight: 600;
-  padding-bottom: 8px;
-}
-footer > div section ul {
-  border-bottom: 1px solid #C8C7BC;
-  padding-bottom: 16px;
-}
-footer > div section ul li {
-  display: flex;
-  margin-bottom: 16px;
-}
-footer > div section ul li div {
-  align-items: center;
-  display: flex;
-  margin-right: 16px;
-}
-@media (min-width: 768px) {
-  footer > div #locations {
-    grid-area: locations;
-  }
-}
-footer > div #locations i {
-  color: #FFD205;
-}
-footer > div #locations a:link,
-footer > div #locations a:visited {
-  color: #C8C7BC;
-}
-@media (min-width: 768px) {
-  footer > div #locations #nova {
-    border: none;
-  }
-}
-@media (min-width: 768px) {
-  footer > div #newsletter {
-    grid-area: newsletter;
-  }
-}
-footer > div #newsletter form input {
-  background-color: #ADB5BD;
-  border: none;
-  color: #2A3036;
-  padding: 16px 2%;
-  width: 96%;
-}
-footer > div #newsletter form input::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: #2A3036;
-  /* Firefox */
-  opacity: 1;
-}
-footer > div #newsletter form input:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: #2A3036;
-}
-footer > div #newsletter form input::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: #2A3036;
-}
-footer > div #newsletter form button {
-  display: flex;
-  margin-left: auto;
-  margin-top: 16px;
-}
-@media (min-width: 768px) {
-  footer > div #social {
-    grid-area: social;
-    margin-top: -100px;
-  }
-}
-@media (min-width: 1024px) {
-  footer > div #social {
-    margin-top: 0px;
-  }
-}
-@media (min-width: 1024px) {
-  footer > div #social h1 {
-    text-align: right;
-  }
-}
-footer > div #social ul {
-  border: none;
-  display: flex;
-}
-@media (min-width: 1024px) {
-  footer > div #social ul {
-    justify-content: flex-end;
-  }
-}
-footer > div #social ul li {
-  margin-right: 16px;
-}
-@media (min-width: 1024px) {
-  footer > div #social ul li {
-    margin-left: 16px;
-    margin-right: 0px;
-  }
-}
-footer > div #social ul li a:link,
-footer > div #social ul li a:visited {
-  color: #fff;
-  font-size: 1.875rem;
-}
-footer > div #social ul li a:link:hover, footer > div #social ul li a:link:active,
-footer > div #social ul li a:visited:hover,
-footer > div #social ul li a:visited:active {
-  color: #FFD205;
+  padding: 50px 0;
 }
 
 .hero-image {
