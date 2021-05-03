@@ -10,6 +10,10 @@
 @import "base/_typography";
 
 // Layout Styles 
-@import "content/hero-image";
-@import "content/images";
-@import "content/menu";
+@import "layout/header";
+@import "layout/footer";
+
+// Sections Styles
+@import "sections/hero-image";
+@import "sections/images";
+@import "sections/menu";

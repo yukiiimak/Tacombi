@@ -2,8 +2,9 @@
     Header
 ============= */
 header {
-	background-color: $nightDark;
 	display: grid;
+	background-color: $limemist;
+	padding: 10px;
 
 	@include xl {
 		grid-template-areas: ". header .";
