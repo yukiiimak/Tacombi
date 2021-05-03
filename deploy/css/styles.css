@@ -398,13 +398,11 @@ ul li {
 }
 .content .hero .strip2 {
   display: grid;
-}
-.content .hero .strip2 .circlepic {
-  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 14px;
 }
 @media (min-width: 1024px) {
   .content .hero .strip2 {
-    grid-template-columns: 54% auto;
+    grid-template-columns: 50% auto;
   }
 }
 .content .images {
@@ -681,7 +679,7 @@ footer > div #social ul li a:visited:active {
   display: grid;
   background-color: #FDEA80;
   height: 72px;
-  padding-left: 34px;
+  padding-left: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -692,6 +690,22 @@ footer > div #social ul li a:visited:active {
   padding-left: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
+}
+.hero .story {
+  display: grid;
+  background-color: #E0FFF8;
+  height: 145px;
+  margin: 20px 0;
+  padding-left: 18px;
+  padding-top: 32px;
+}
+.hero .philosophy {
+  display: grid;
+  background-color: #E0FFF8;
+  height: 145px;
+  margin: 20px 0;
+  padding-left: 18px;
+  padding-top: 32px;
 }
 
 .images .threetacos {

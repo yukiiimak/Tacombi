@@ -3,7 +3,7 @@
         display: grid;
         background-color: $primoseroad;
         height: 72px;
-        padding-left: 34px;
+        padding-left: 24px;
         padding-top: 12px;
         padding-bottom: 12px;
     }
@@ -15,5 +15,23 @@
         padding-left: 24px;
         padding-top: 12px;
         padding-bottom: 12px;
+    }
+
+    .story {
+        display: grid;
+        background-color: $springmorning;
+        height: 145px;
+        margin: 20px 0;
+        padding-left: 18px;
+        padding-top: 32px;
+    }
+
+    .philosophy {
+        display: grid;
+        background-color: $springmorning;
+        height: 145px;
+        margin: 20px 0;
+        padding-left: 18px;
+        padding-top: 32px;
     }
 }

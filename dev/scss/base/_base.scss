@@ -59,13 +59,10 @@ ul {
 
 		.strip2 {
 			display: grid;
-
-			.circlepic{
-				grid-template-columns: repeat(4, 1fr);
-			}
+			grid-gap: 14px;
 
 			@include lg {
-				grid-template-columns: 54% auto;
+				grid-template-columns: 50% auto;
 			}
 		}
 	}
