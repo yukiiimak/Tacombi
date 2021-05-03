@@ -131,7 +131,7 @@ ul {
 		grid-area: menu;
 		display: grid;
 
-		@include md{
+		@include md {
 			.food {
 				display: grid;
 				grid-template-columns: 360px 360px;
