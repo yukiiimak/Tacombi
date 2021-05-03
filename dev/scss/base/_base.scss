@@ -52,6 +52,18 @@ ul {
 		.strip1 {
 			display: grid;
 
+			.reservations {
+				display: grid;
+				grid-template-columns: 90% auto;
+				align-items: right;
+			}
+			
+			.order {
+				display: grid;
+				grid-template-columns: 90% auto;
+				align-items: right;
+			}
+
 			@include md {
 				grid-template-columns: auto auto;
 			}

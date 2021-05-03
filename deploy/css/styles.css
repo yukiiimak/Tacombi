@@ -391,6 +391,16 @@ ul li {
 .content .hero .strip1 {
   display: grid;
 }
+.content .hero .strip1 .reservations {
+  display: grid;
+  grid-template-columns: 90% auto;
+  align-items: right;
+}
+.content .hero .strip1 .order {
+  display: grid;
+  grid-template-columns: 90% auto;
+  align-items: right;
+}
 @media (min-width: 768px) {
   .content .hero .strip1 {
     grid-template-columns: auto auto;
