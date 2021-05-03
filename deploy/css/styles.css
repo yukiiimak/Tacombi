@@ -403,6 +403,7 @@ ul li {
 }
 @media (min-width: 768px) {
   .content .images {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas: "threetacos juicetacos" "threetacos juicetacos";
@@ -415,7 +416,14 @@ ul li {
   }
   .content .images .twotacos {
     grid-area: twotacos;
-    display: none !important;
+  }
+}
+@media (min-width: 1024px) {
+  .content .images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "threetacos threetacos juicetacos juicetacos" "threetacos threetacos juicetacos juicetacos" "threetacos threetacos twotacos twotacos";
   }
 }
 .content .menu {
@@ -436,7 +444,7 @@ ul li {
 @media (min-width: 768px) {
   .content .footer {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
 }
 .content .footer .locations {
