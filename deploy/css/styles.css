@@ -410,6 +410,16 @@ ul li {
   display: grid;
   grid-gap: 14px;
 }
+.content .hero .strip2 .story {
+  display: grid;
+  grid-template-columns: 80% auto;
+  align-items: right;
+}
+.content .hero .strip2 .philosophy {
+  display: grid;
+  grid-template-columns: 80% auto;
+  align-items: right;
+}
 @media (min-width: 1024px) {
   .content .hero .strip2 {
     width: 90%;
@@ -711,6 +721,11 @@ footer > div #social ul li a:visited:active {
   padding-left: 18px;
   padding-top: 32px;
 }
+.hero .story button {
+  background-color: #FFF09B;
+  padding: 10px 20px;
+  border: none;
+}
 .hero .philosophy {
   display: grid;
   background-color: #E0FFF8;
@@ -718,6 +733,11 @@ footer > div #social ul li a:visited:active {
   margin: 20px 0;
   padding-left: 18px;
   padding-top: 32px;
+}
+.hero .philosophy button {
+  background-color: #FFF09B;
+  padding: 10px 20px;
+  border: none;
 }
 
 .images .threetacos {

@@ -73,6 +73,18 @@ ul {
 			display: grid;
 			grid-gap: 14px;
 
+			.story {
+				display: grid;
+				grid-template-columns: 80% auto;
+				align-items: right;
+			}
+
+			.philosophy {
+				display: grid;
+				grid-template-columns: 80% auto;
+				align-items: right;
+			}			
+
 			@include lg {
 				width: 90%;
 				margin: 0 auto;
