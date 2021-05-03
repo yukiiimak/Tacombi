@@ -1,47 +1,62 @@
-.entradas {
-    background: url("../img/Salsa.2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 350px;
-    height: 184px;
+.menu {
+    button {
+        background-color: $citruspunch;
+        border: none;
+        padding: 5px 10px
+    }
     
+    article {
+        background-color: $springmorning;
+        padding-bottom: 20px;
+        padding-right: none;
+    }
+    
+    .entradas {
+        background: url("../img/Salsa.2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 403px;
+        width: 350px;
+        height: 184px;
+    }
+    
+    
+    .tacos {
+        background: url("../img/Taco.2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 350px;
+        height: 184px;
+    }
+    
+    
+    
+    .quesadillas {
+        background: url("../img/Quesadilla.2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 350px;
+        height: 184px;
+    }
+    
+    
+    
+    .burritas {
+        background: url("../img/Burrito.2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 350px;
+        height: 184px;
+    }
+    
+    
+    .aguas {
+        background: url("../img/Agua-Fresca.2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 350px;
+        height: 184px;
+    }
 }
 
-
-.tacos {
-    background: url("../img/Taco.2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 350px;
-    height: 184px;
-}
-
-
-
-.quesadillas {
-    background: url("../img/Quesadilla.2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 350px;
-    height: 184px;
-}
-
-
-
-.burritas {
-    background: url("../img/Burrito.2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 350px;
-    height: 184px;
-}
-
-
-.aguas {
-    background: url("../img/Agua-Fresca.2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 350px;
-    height: 184px;
-}
 

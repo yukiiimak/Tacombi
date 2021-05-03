@@ -375,12 +375,10 @@ ul li {
 .content .search {
   grid-area: search;
 }
-@media (min-width: 1024px) {
-  .content .search form {
-    display: grid;
-    grid-template-columns: 85% auto;
-    grid-gap: 10px;
-  }
+.content .search form {
+  display: grid;
+  grid-template-columns: 80% auto;
+  grid-gap: 10px;
 }
 .content .hero-image {
   grid-area: hero-image;
@@ -764,39 +762,46 @@ footer > div #social ul li a:visited:active {
   height: 377px;
 }
 
-.entradas {
+.menu button {
+  background-color: #FFF09B;
+  border: none;
+  padding: 5px 10px;
+}
+.menu article {
+  background-color: #E0FFF8;
+  padding-bottom: 20px;
+  padding-right: none;
+}
+.menu .entradas {
   background: url("../img/Salsa.2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 403px;
   width: 350px;
   height: 184px;
 }
-
-.tacos {
+.menu .tacos {
   background: url("../img/Taco.2.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 350px;
   height: 184px;
 }
-
-.quesadillas {
+.menu .quesadillas {
   background: url("../img/Quesadilla.2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 350px;
   height: 184px;
 }
-
-.burritas {
+.menu .burritas {
   background: url("../img/Burrito.2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 350px;
   height: 184px;
 }
-
-.aguas {
+.menu .aguas {
   background: url("../img/Agua-Fresca.2.jpg");
   background-repeat: no-repeat;
   background-size: cover;

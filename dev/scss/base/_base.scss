@@ -33,12 +33,10 @@ ul {
 	.search {
 		grid-area: search;
 
-		@include lg {
-			form {
-				display: grid;
-				grid-template-columns: 85% auto;
-				grid-gap: 10px;
-			}
+		form {
+			display: grid;
+			grid-template-columns: 80% auto;
+			grid-gap: 10px;
 		}
 	}
 
