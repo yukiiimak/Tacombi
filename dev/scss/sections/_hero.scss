@@ -1,0 +1,19 @@
+.hero {
+    .reservations {
+        display: grid;
+        background-color: $primoseroad;
+        height: 72px;
+        padding-left: 34px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .order {
+        display: grid;
+        background-color: $citruspunch;
+        height: 72px;
+        padding-left: 24px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}

@@ -672,13 +672,21 @@ footer > div #social ul li a:visited:active {
   height: 50vh;
 }
 
-.hero-image {
-  background: url("../img/Hero.2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 50vh;
+.hero .reservations {
+  display: grid;
+  background-color: #FDEA80;
+  height: 72px;
+  padding-left: 34px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.hero .order {
+  display: grid;
+  background-color: #FFF09B;
+  height: 72px;
+  padding-left: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .images .threetacos {
