@@ -580,6 +580,7 @@ header .image {
   padding-top: 24px;
   padding-left: 17px;
   padding-right: 17px;
+  padding-bottom: 24px;
 }
 .footer .email form input {
   border: none;
