@@ -449,7 +449,7 @@ ul li {
 @media (min-width: 1024px) {
   .content .images {
     display: grid;
-    grid-template-columns: repeat(4, 2fr);
+    grid-template-columns: repeat(3, 2fr);
     grid-template-rows: repeat(3, 1fr);
     grid-template-areas: "threetacos threetacos juicetacos juicetacos" "threetacos threetacos juicetacos juicetacos" "threetacos threetacos twotacos twotacos";
     margin-bottom: 56px;
