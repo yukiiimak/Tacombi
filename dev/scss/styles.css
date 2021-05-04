@@ -367,45 +367,62 @@ ul li {
 
 .content {
   display: grid;
-  grid-template-areas: "header" "hero" "images" "menu" "footer";
-  margin-bottom: 24px;
+  grid-template-areas: "header" "search" "hero-image" "hero" "images" "menu" "footer";
 }
 .content .header {
   grid-area: header;
 }
-.content .header .fas fa-caret-right {
-  display: grid;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 15px 20px;
+.content .search {
+  grid-area: search;
 }
-@media (min-width: 768px) {
-  .content .hero {
-    grid-area: hero;
-    display: grid;
-  }
+.content .hero-image {
+  grid-area: hero-image;
+}
+.content .hero {
+  grid-area: hero;
+}
+.content .hero .strip1 {
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-gap: 30px;
+}
+.content .hero .strip1 .detailshide {
+  display: none;
+}
+.content .hero .strip2 {
+  display: grid;
+  grid-template-columns: 300px auto;
+}
+.content .images {
+  grid-area: images;
+  display: grid;
+}
+.content .images .twotacos {
+  display: none !important;
 }
 .content .menu {
   grid-area: menu;
+  display: grid;
 }
 .content .footer {
   grid-area: footer;
 }
+.content .footer .socials ul {
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+}
+.content .footer .locations {
+  display: grid;
+}
+.content .footer .addressnumber {
+  display: grid;
+  grid-template-columns: 30px 300px;
+  grid-gap: 10px;
+}
 @media (min-width: 768px) {
-  .content {
-    margin-bottom: 32px;
-  }
-}
-@media (min-width: 1024px) {
-  .content {
-    margin-bottom: 64px;
-  }
-}
-@media (min-width: 1200px) {
-  .content {
-    margin-bottom: 64px;
+  .content .footer {
+    display: grid;
+    grid-template-columns: 300px 300px;
   }
 }
 
@@ -428,4 +445,30 @@ p {
 
 .section-title {
   font-weight: 300;
+}
+
+.hero-image {
+  background: url(/deploy/img/Hero.2.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 888px;
+}
+
+.images .threetacos {
+  background: url(/deploy/img/Collage1used.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 1250px;
+}
+.images .juicetacos {
+  background: url(/deploy/img/Collage2used.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 375px;
+}
+.images .twotacos {
+  background: url(/deploy/img/Collage3used.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 377px;
 }
