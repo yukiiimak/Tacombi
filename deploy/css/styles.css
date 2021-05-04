@@ -595,6 +595,9 @@ header .image {
 .footer .icon {
   color: #FCDA20;
 }
+.footer .socialicons a {
+  color: black;
+}
 
 .hero-image {
   background: url("../img/Hero.2.jpg");
