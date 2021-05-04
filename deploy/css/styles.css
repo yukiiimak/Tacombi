@@ -377,8 +377,9 @@ ul li {
 }
 .content .search form {
   display: grid;
-  grid-template-columns: 80% auto;
+  grid-template-columns: 95% auto;
   grid-gap: 10px;
+  margin-right: 16px;
 }
 .content .hero-image {
   grid-area: hero-image;
@@ -576,9 +577,6 @@ header .image {
 .footer .icon {
   color: #FCDA20;
 }
-.footer hr {
-  color: black;
-}
 
 .hero-image {
   background: url("../img/Hero.2.jpg");
@@ -716,4 +714,5 @@ header .image {
   border: none;
   border-radius: 4px;
   height: 50px;
+  width: 61px;
 }
