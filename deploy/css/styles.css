@@ -471,7 +471,7 @@ ul li {
   .content .menu .food {
     display: grid;
     grid-template-columns: 360px 360px 360px;
-    grid-template-areas: "entradaxs tacos quesadillas" ". burritas aguas .";
+    grid-template-areas: "entradas tacos quesadillas" ". burritas aguas .";
     margin-bottom: 56px;
     margin-left: 16px;
     margin-right: 16px;
@@ -561,7 +561,6 @@ header .image {
   padding-right: 17px;
 }
 .footer .email form input {
-  color: #000;
   border: none;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -572,6 +571,10 @@ header .image {
   background-color: #FFF09B;
   border: none;
   padding: 5px 10px;
+}
+.footer .icon {
+  color: #FCDA20;
+  border: 2px;
 }
 
 .hero-image {
