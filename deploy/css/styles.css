@@ -522,7 +522,6 @@ ul li {
   grid-row: 1/1;
 }
 .content .footer .socials {
-  display: grid;
   grid-column: 3/6;
 }
 .content .footer .socials ul {
@@ -531,7 +530,6 @@ ul li {
 }
 @media (min-width: 1024px) {
   .content .footer .socials {
-    display: grid;
     grid-column: 6/6;
   }
 }
@@ -689,35 +687,30 @@ header .image {
   background-repeat: no-repeat;
   background-size: cover;
   height: 403px;
-  width: 350px;
   height: 184px;
 }
 .menu .tacos {
   background: url("../img/Taco.2.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 350px;
   height: 184px;
 }
 .menu .quesadillas {
   background: url("../img/Quesadilla.2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 350px;
   height: 184px;
 }
 .menu .burritas {
   background: url("../img/Burrito.2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 350px;
   height: 184px;
 }
 .menu .aguas {
   background: url("../img/Agua-Fresca.2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 350px;
   height: 184px;
 }
 

@@ -200,7 +200,6 @@ ul {
 		}
 
 		.socials {
-			display: grid;
 			grid-column: 3 / 6;
 			
 			ul {
@@ -209,7 +208,6 @@ ul {
 			}
 
 			@include lg {
-				display: grid;
 				grid-column: 6 / 6;
 			}
 		}
