@@ -191,5 +191,9 @@ ul {
 				grid-template-columns: repeat(4, 50px);
 			}
 		}
+
+		@include lg {
+			grid-template-areas: ". locations . email . socials";
+		}
 	}
 }

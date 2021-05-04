@@ -509,6 +509,11 @@ ul li {
   display: grid;
   grid-template-columns: repeat(4, 50px);
 }
+@media (min-width: 1024px) {
+  .content .footer {
+    grid-template-areas: ". locations . email . socials";
+  }
+}
 
 /* =============
     Typography
@@ -551,7 +556,22 @@ header .image {
 ============= */
 .footer {
   background-color: #E4FFC0;
-  padding: 50px 0;
+  padding-top: 24px;
+  padding-left: 17px;
+  padding-right: 17px;
+}
+.footer .email form input {
+  color: #000;
+  border: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 12px;
+  width: 320px;
+}
+.footer .email form button {
+  background-color: #FFF09B;
+  border: none;
+  padding: 5px 10px;
 }
 
 .hero-image {
