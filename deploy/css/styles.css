@@ -510,8 +510,9 @@ ul li {
   grid-template-columns: repeat(4, 50px);
 }
 @media (min-width: 1024px) {
-  .content .footer {
-    grid-template-areas: ". locations . email . socials";
+  .content .footer .socials {
+    display: grid;
+    grid-column: 6/6;
   }
 }
 
@@ -574,7 +575,9 @@ header .image {
 }
 .footer .icon {
   color: #FCDA20;
-  border: 2px;
+}
+.footer hr {
+  color: black;
 }
 
 .hero-image {

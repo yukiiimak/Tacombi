@@ -190,10 +190,11 @@ ul {
 				display: grid;
 				grid-template-columns: repeat(4, 50px);
 			}
-		}
 
-		@include lg {
-			grid-template-areas: ". locations . email . socials";
+			@include lg {
+				display: grid;
+				grid-column: 6 / 6;
+			}
 		}
 	}
 }
