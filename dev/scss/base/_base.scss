@@ -96,6 +96,14 @@ ul {
 		grid-area: images;
 		display: grid;
 
+		@include sm {
+			display: grid;
+
+			.twotacos{
+				display: none !important;
+			}
+		}
+
 		@include md {
 			display: grid;
 			grid-template-columns: repeat(2, 1fr);
@@ -112,20 +120,17 @@ ul {
 				grid-area: juicetacos;
 			}
 
-			.twotacos{
+			.twotacos {
 				grid-area: twotacos;
+				display: none !important;
 			}
 		}
 
 		@include lg {
-			display: grid;
-			grid-template-columns: repeat(3, 2fr);
-			grid-template-rows: repeat(3, 1fr);
-			grid-template-areas: 
-			"threetacos threetacos juicetacos juicetacos"
-			"threetacos threetacos juicetacos juicetacos"
-			"threetacos threetacos twotacos twotacos";
-			margin-bottom: 56px;
+			.twotacos {
+				grid-area: twotacos;
+				display: none !important;
+			}
 		}
 	}
 

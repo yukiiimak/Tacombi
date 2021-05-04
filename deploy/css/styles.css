@@ -430,6 +430,14 @@ ul li {
   grid-area: images;
   display: grid;
 }
+@media (min-width: 576px) {
+  .content .images {
+    display: grid;
+  }
+  .content .images .twotacos {
+    display: none !important;
+  }
+}
 @media (min-width: 768px) {
   .content .images {
     display: grid;
@@ -445,15 +453,13 @@ ul li {
   }
   .content .images .twotacos {
     grid-area: twotacos;
+    display: none !important;
   }
 }
 @media (min-width: 1024px) {
-  .content .images {
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "threetacos threetacos juicetacos juicetacos" "threetacos threetacos juicetacos juicetacos" "threetacos threetacos twotacos twotacos";
-    margin-bottom: 56px;
+  .content .images .twotacos {
+    grid-area: twotacos;
+    display: none !important;
   }
 }
 .content .menu {
@@ -652,6 +658,7 @@ header .image {
   background-size: cover;
   width: 100%;
   height: 377px;
+  display: none;
 }
 
 .menu button {
