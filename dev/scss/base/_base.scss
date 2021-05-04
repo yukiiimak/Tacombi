@@ -84,8 +84,14 @@ ul {
 				align-items: right;
 			}			
 
+			@include md {
+				width: 95%;
+				margin: 0 auto;
+				grid-template-columns: 50% auto;
+			}
+
 			@include lg {
-				width: 90%;
+				width: 98%;
 				margin: 0 auto;
 				grid-template-columns: 50% auto;
 			}
@@ -131,6 +137,11 @@ ul {
 				grid-area: twotacos;
 				display: none !important;
 			}
+
+			margin-left: 16px;
+			margin-right: 16px;
+			margin-bottom: 56px;
+			margin-top: 56px;
 		}
 	}
 
