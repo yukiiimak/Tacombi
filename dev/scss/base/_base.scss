@@ -53,14 +53,22 @@ ul {
 
 			.reservations {
 				display: grid;
-				grid-template-columns: 90% auto;
-				align-items: right;
+				grid-template-columns: 70% auto;
+				align-items: center;
 			}
 			
 			.order {
 				display: grid;
-				grid-template-columns: 90% auto;
-				align-items: right;
+				grid-template-columns: 70% auto;
+				align-items: center;
+			}
+
+			.details {
+				display: flex;
+				
+				h4 {
+					margin-right: 10px;
+				}
 			}
 
 			@include md {
@@ -74,13 +82,13 @@ ul {
 
 			.story {
 				display: grid;
-				grid-template-columns: 80% auto;
+				grid-template-columns: 50% auto;
 				align-items: right;
 			}
 
 			.philosophy {
 				display: grid;
-				grid-template-columns: 80% auto;
+				grid-template-columns: 50% auto;
 				align-items: right;
 			}			
 
@@ -183,10 +191,12 @@ ul {
 		@include md {
 			display: grid;
 			grid-template-columns: repeat(6, 1fr);
+			grid-template-rows: repeat(2, 200px);
 		}
 
 		.locations {
 			display: grid;
+			grid-row: 1 / 2;
 		}
 
 		.addressnumber {
