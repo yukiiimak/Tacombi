@@ -592,8 +592,12 @@ header .image {
   border: none;
   padding: 5px 10px;
 }
-.footer .icon {
+.footer .locations .icon {
   color: #FCDA20;
+}
+.footer .locations .addressnumber a {
+  color: black;
+  text-decoration: none;
 }
 .footer .socialicons a {
   color: black;
@@ -616,6 +620,9 @@ header .image {
   padding-top: 12px;
   padding-bottom: 12px;
 }
+.hero .reservations .details a {
+  color: black;
+}
 .hero .order {
   display: grid;
   background-color: #FFF09B;
@@ -623,6 +630,9 @@ header .image {
   padding-left: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
+}
+.hero .order .details a {
+  color: black;
 }
 .hero .story {
   display: grid;
