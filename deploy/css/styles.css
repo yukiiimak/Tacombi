@@ -564,8 +564,20 @@ ul li {
 .hero .reservations {
   font-family: "Roboto", sans-serif;
 }
+.hero .reservations .details {
+  font-family: "Cabin", sans-serif;
+}
+.hero .reservations .description {
+  font-family: "Cabin", sans-serif;
+}
 .hero .order {
   font-family: "Roboto", sans-serif;
+}
+.hero .order .details {
+  font-family: "Cabin", sans-serif;
+}
+.hero .order .description {
+  font-family: "Cabin", sans-serif;
 }
 .hero .story {
   font-family: "Roboto", sans-serif;
@@ -675,6 +687,13 @@ header .image {
   font-weight: 500;
   font-size: 25px;
 }
+.hero .reservations h4 {
+  font-weight: 400;
+  font-size: 18px;
+}
+.hero .reservations .description {
+  font-size: 16px;
+}
 .hero .order {
   display: grid;
   background-color: #FFF09B;
@@ -689,6 +708,13 @@ header .image {
 .hero .order h3 {
   font-weight: 500;
   font-size: 25px;
+}
+.hero .order h4 {
+  font-weight: 400;
+  font-size: 18px;
+}
+.hero .order .description {
+  font-size: 16px;
 }
 .hero .story {
   display: grid;
