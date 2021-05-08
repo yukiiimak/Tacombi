@@ -581,6 +581,10 @@ ul li {
   font-family: "Roboto", sans-serif;
 }
 
+.footer .sections {
+  font-family: "Roboto", sans-serif;
+}
+
 h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
@@ -619,6 +623,9 @@ header .image {
   padding-left: 17px;
   padding-right: 17px;
   padding-bottom: 24px;
+}
+.footer h3 {
+  font-weight: 400;
 }
 .footer .email form input {
   border: none;
