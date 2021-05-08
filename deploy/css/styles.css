@@ -381,9 +381,6 @@ ul li {
   grid-gap: 10px;
   margin-right: 16px;
 }
-.content .search form .thin {
-  font-weight: 100;
-}
 .content .hero-image {
   grid-area: hero-image;
 }
@@ -577,6 +574,13 @@ ul li {
   font-family: "Roboto", sans-serif;
 }
 
+.menu .title {
+  font-family: "Roboto", sans-serif;
+}
+.menu .food {
+  font-family: "Roboto", sans-serif;
+}
+
 h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
@@ -737,6 +741,9 @@ header .image {
   display: none;
 }
 
+.menu .title {
+  font-weight: 700;
+}
 .menu button {
   background-color: #FFF09B;
   border: none;
@@ -745,6 +752,9 @@ header .image {
 .menu article {
   background-color: #E0FFF8;
   padding-bottom: 20px;
+}
+.menu article h2 {
+  font-weight: 500;
 }
 .menu .entradas {
   background: url("../img/Salsa.2.jpg");

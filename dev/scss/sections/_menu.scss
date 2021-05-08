@@ -1,4 +1,9 @@
 .menu {
+
+    .title {
+        font-weight: 700;
+    }
+
     button {
         background-color: $citruspunch;
         border: none;
@@ -8,6 +13,10 @@
     article {
         background-color: $springmorning;
         padding-bottom: 20px;
+
+        h2 {
+            font-weight: 500;
+        }
     }
     
     .entradas {
