@@ -368,6 +368,7 @@ ul li {
 .content {
   display: grid;
   grid-template-areas: "header" "search" "hero-image" "hero" "images" "menu" "footer";
+  border: 1px solid red;
 }
 .content .header {
   grid-area: header;
@@ -752,5 +753,5 @@ header .image {
   border: none;
   border-radius: 4px;
   height: 50px;
-  width: 61px;
+  width: auto;
 }
