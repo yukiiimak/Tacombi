@@ -26,8 +26,7 @@ ul {
 		"menu"
 		"footer";
 
-	border: 1px solid red;
-
+		
 	.header {
 		grid-area: header;
 	}
@@ -92,7 +91,7 @@ ul {
 				display: grid;
 				grid-template-columns: 50% auto;
 				align-items: right;
-			}			
+			}		
 
 			@include md {
 				width: 95%;
@@ -158,6 +157,19 @@ ul {
 	.menu {
 		grid-area: menu;
 		display: grid;
+
+		@include sm {
+			display: grid;
+			margin-top: 24px;
+
+			.title {
+				margin-bottom: 16px;
+			}
+
+			.food {
+				margin-bottom: 24px;
+			}
+		}
 
 		@include md {
 			.food {

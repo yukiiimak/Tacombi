@@ -368,7 +368,6 @@ ul li {
 .content {
   display: grid;
   grid-template-areas: "header" "search" "hero-image" "hero" "images" "menu" "footer";
-  border: 1px solid red;
 }
 .content .header {
   grid-area: header;
@@ -485,6 +484,18 @@ ul li {
 .content .menu {
   grid-area: menu;
   display: grid;
+}
+@media (min-width: 576px) {
+  .content .menu {
+    display: grid;
+    margin-top: 24px;
+  }
+  .content .menu .title {
+    margin-bottom: 16px;
+  }
+  .content .menu .food {
+    margin-bottom: 24px;
+  }
 }
 @media (min-width: 768px) {
   .content .menu .food {
