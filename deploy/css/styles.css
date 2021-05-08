@@ -564,6 +564,19 @@ ul li {
   font-family: "Roboto", sans-serif;
 }
 
+.hero .reservations {
+  font-family: "Roboto", sans-serif;
+}
+.hero .order {
+  font-family: "Roboto", sans-serif;
+}
+.hero .story {
+  font-family: "Roboto", sans-serif;
+}
+.hero .philosophy {
+  font-family: "Roboto", sans-serif;
+}
+
 h1, h2, h3, h4 {
   margin: 0;
   padding: 0;
@@ -646,6 +659,9 @@ header .image {
 .hero .reservations .details a {
   color: black;
 }
+.hero .reservations h3 {
+  font-weight: 500;
+}
 .hero .order {
   display: grid;
   background-color: #FFF09B;
@@ -657,6 +673,9 @@ header .image {
 .hero .order .details a {
   color: black;
 }
+.hero .order h3 {
+  font-weight: 500;
+}
 .hero .story {
   display: grid;
   background-color: #E0FFF8;
@@ -664,6 +683,9 @@ header .image {
   margin: 20px 0;
   padding-left: 18px;
   padding-top: 32px;
+}
+.hero .story h2 {
+  font-weight: 300;
 }
 .hero .story button {
   background-color: #FFF09B;
@@ -682,6 +704,9 @@ header .image {
   margin: 20px 0;
   padding-left: 18px;
   padding-top: 32px;
+}
+.hero .philosophy h2 {
+  font-weight: 300;
 }
 .hero .philosophy button {
   background-color: #FFF09B;
@@ -761,6 +786,9 @@ header .image {
   border: none;
   border-bottom: 2px solid #000;
   padding: 5px;
+}
+.search form input .thin {
+  font-weight: 100;
 }
 .search form button {
   background: #FFF09B;

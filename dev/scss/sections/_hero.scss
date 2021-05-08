@@ -10,6 +10,10 @@
         .details a {
             color: black;
         }
+
+        h3 {
+            font-weight: 500;
+        }
     }
 
     .order {
@@ -23,6 +27,10 @@
         .details a {
             color: black;
         }
+
+        h3 {
+            font-weight: 500;
+        }
     }
 
     .story {
@@ -32,6 +40,10 @@
         margin: 20px 0;
         padding-left: 18px;
         padding-top: 32px;
+
+        h2 {
+            font-weight: 300;
+        }
 
         button {
             background-color: $citruspunch;
@@ -51,6 +63,10 @@
         margin: 20px 0;
         padding-left: 18px;
         padding-top: 32px;
+
+        h2 {
+            font-weight: 300;
+        }
 
         button {
             background-color: $citruspunch;
