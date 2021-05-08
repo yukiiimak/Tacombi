@@ -381,6 +381,9 @@ ul li {
   grid-gap: 10px;
   margin-right: 16px;
 }
+.content .search form .thin {
+  font-weight: 100;
+}
 .content .hero-image {
   grid-area: hero-image;
 }
@@ -557,8 +560,8 @@ ul li {
 /* =============
     Typography
 ============= */
-body {
-  font-family: "Open Sans", sans-serif;
+.search {
+  font-family: "Roboto", sans-serif;
 }
 
 h1, h2, h3, h4 {
