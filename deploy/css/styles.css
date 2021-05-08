@@ -626,6 +626,7 @@ header .image {
 }
 .footer h3 {
   font-weight: 400;
+  font-size: 20px;
 }
 .footer .email form input {
   border: none;
@@ -672,6 +673,7 @@ header .image {
 }
 .hero .reservations h3 {
   font-weight: 500;
+  font-size: 25px;
 }
 .hero .order {
   display: grid;
@@ -686,6 +688,7 @@ header .image {
 }
 .hero .order h3 {
   font-weight: 500;
+  font-size: 25px;
 }
 .hero .story {
   display: grid;
@@ -697,6 +700,7 @@ header .image {
 }
 .hero .story h2 {
   font-weight: 300;
+  font-size: 32px;
 }
 .hero .story button {
   background-color: #FFF09B;
@@ -718,6 +722,7 @@ header .image {
 }
 .hero .philosophy h2 {
   font-weight: 300;
+  font-size: 32px;
 }
 .hero .philosophy button {
   background-color: #FFF09B;
@@ -750,6 +755,7 @@ header .image {
 
 .menu .title {
   font-weight: 700;
+  font-size: 32px;
 }
 .menu button {
   background-color: #FFF09B;
@@ -762,6 +768,7 @@ header .image {
 }
 .menu article h2 {
   font-weight: 500;
+  font-size: 25px;
 }
 .menu .entradas {
   background: url("../img/Salsa.2.jpg");
