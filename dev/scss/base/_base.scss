@@ -87,8 +87,7 @@ ul {
 		}
 
 		.strip2 {
-			display: grid;
-			grid-gap: 14px;
+			margin-bottom: 24px;
 
 			.story {
 				display: grid;
@@ -192,6 +191,10 @@ ul {
 		@include sm {
 			display: grid;
 			margin-top: 24px;
+
+			article {
+				margin-bottom: 8px;
+			}
 
 			.title {
 				margin-bottom: 16px;
