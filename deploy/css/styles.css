@@ -435,6 +435,9 @@ ul li {
   align-items: flex-start;
   margin-right: 17px;
 }
+.content .hero .strip2 .story .button {
+  margin-top: 24px;
+}
 .content .hero .strip2 .philosophy {
   display: grid;
   grid-template-columns: 50% auto;
@@ -445,6 +448,9 @@ ul li {
   justify-content: flex-end;
   align-items: flex-start;
   margin-right: 17px;
+}
+.content .hero .strip2 .philosophy .button {
+  margin-top: 24px;
 }
 @media (min-width: 768px) {
   .content .hero .strip2 {
