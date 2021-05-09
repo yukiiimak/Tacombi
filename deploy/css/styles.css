@@ -601,9 +601,18 @@ ul li {
 .menu .info {
   font-family: "Cabin", sans-serif;
 }
+.menu .button {
+  font-family: "Cabin", sans-serif;
+}
 
 .footer .sections {
   font-family: "Roboto", sans-serif;
+}
+.footer .bottom {
+  font-family: "Cabin", sans-serif;
+}
+.footer .emailaddress {
+  font-family: "Cabin", sans-serif;
 }
 
 h1, h2, h3, h4 {
@@ -660,6 +669,10 @@ header .image {
   background-color: #FFF09B;
   border: none;
   padding: 5px 10px;
+  font-size: 15px;
+}
+.footer .email .emailaddress {
+  font-size: 15px;
 }
 .footer .locations .icon {
   color: #FCDA20;
@@ -667,6 +680,12 @@ header .image {
 .footer .locations .addressnumber a {
   color: black;
   text-decoration: none;
+}
+.footer .locations h4 {
+  font-size: 15px;
+}
+.footer .locations a {
+  font-size: 12px;
 }
 .footer .socialicons a {
   color: black;
