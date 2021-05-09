@@ -520,6 +520,18 @@ ul li {
   .content .menu article {
     margin-bottom: 8px;
   }
+  .content .menu article h2 {
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  .content .menu article .info {
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  .content .menu article .button {
+    margin-top: 16px;
+    margin-left: 16px;
+  }
   .content .menu .title {
     margin-bottom: 16px;
   }
