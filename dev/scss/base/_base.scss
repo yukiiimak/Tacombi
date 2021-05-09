@@ -203,6 +203,7 @@ ul {
 		}
 
 		@include md {
+			margin-top: 40px;
 
 			.title {
 				display: grid;
@@ -279,6 +280,7 @@ ul {
 		
 		@include md {
 			display: grid;
+			margin-top: 40px;
 			grid-template-columns: repeat(6, 1fr);
 			grid-template-rows: repeat(2, 200px);
 

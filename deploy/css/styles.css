@@ -526,6 +526,9 @@ ul li {
   }
 }
 @media (min-width: 768px) {
+  .content .menu {
+    margin-top: 40px;
+  }
   .content .menu .title {
     display: grid;
     grid-template-columns: 360px 360px;
@@ -584,6 +587,7 @@ ul li {
 @media (min-width: 768px) {
   .content .footer {
     display: grid;
+    margin-top: 40px;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 200px);
   }
