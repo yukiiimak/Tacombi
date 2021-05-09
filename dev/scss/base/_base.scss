@@ -74,6 +74,7 @@ ul {
 			.details {
 				display: flex;
 				justify-content: flex-end;
+				margin-right: 15px;
 				
 				h4 {
 					margin-right: 10px;
@@ -125,13 +126,13 @@ ul {
 
 			@include md {
 				width: 95%;
-				margin: 0 auto;
+				margin-left: 15px;
 				grid-template-columns: 50% auto;
 			}
 
 			@include lg {
 				width: 98%;
-				margin: 0 auto;
+				margin-left: 15px;
 				grid-template-columns: 50% auto;
 			}
 		}
@@ -225,6 +226,23 @@ ul {
 			.title {
 				margin-left: 16px;
 				margin-bottom: 24px;
+			}
+
+			article {
+				h2 {
+					margin-top: 24px;
+					margin-left: 17px;
+				}
+
+				.info {
+					margin-top: 24px;
+					margin-left: 17px;
+				}
+
+				.button {
+					margin-top: 24px;
+					margin-left: 17px;
+				}
 			}
 		}
 	}
