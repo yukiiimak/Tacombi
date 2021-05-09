@@ -429,10 +429,22 @@ ul li {
   grid-template-columns: 50% auto;
   align-items: right;
 }
+.content .hero .strip2 .story .circlepic {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-right: 17px;
+}
 .content .hero .strip2 .philosophy {
   display: grid;
   grid-template-columns: 50% auto;
   align-items: right;
+}
+.content .hero .strip2 .philosophy .circlepic {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-right: 17px;
 }
 @media (min-width: 768px) {
   .content .hero .strip2 {
