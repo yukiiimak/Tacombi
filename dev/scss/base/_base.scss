@@ -209,6 +209,23 @@ ul {
 				grid-gap: 15px;
 				justify-content: center;
 			}
+
+			article {
+				h2 {
+					margin-top: 24px;
+					margin-left: 17px;
+				}
+
+				.info {
+					margin-top: 24px;
+					margin-left: 17px;
+				}
+
+				.button {
+					margin-top: 24px;
+					margin-left: 17px;
+				}
+			}
 		}
 
 		@include lg {
@@ -259,6 +276,23 @@ ul {
 		.locations {
 			display: grid;
 			grid-row: 1 / 2;
+
+			@include lg {
+				margin: none;
+				margin-left: 17px;
+				
+				.sections {
+					margin-bottom: 24px;
+				}
+
+				h4 {
+					margin-bottom: 12px;
+				}
+
+				a {
+					margin-bottom: 12px;
+				}
+			}
 		}
 
 		.addressnumber {
@@ -269,6 +303,16 @@ ul {
 		.email {
 			grid-column: 3 / 6;
 			grid-row: 1 / 1;
+
+			@include lg {
+				.sections {
+					margin-bottom: 24px;
+				}
+
+				form input {
+					margin-bottom: 24px;
+				}
+			}
 		}
 
 		.socials {
@@ -281,6 +325,10 @@ ul {
 
 			@include lg {
 				grid-column: 6 / 6;
+
+				.sections {
+					margin-bottom: 24px;
+				}
 			}
 		}
 	}

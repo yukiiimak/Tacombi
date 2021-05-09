@@ -532,6 +532,18 @@ ul li {
     grid-gap: 15px;
     justify-content: center;
   }
+  .content .menu article h2 {
+    margin-top: 24px;
+    margin-left: 17px;
+  }
+  .content .menu article .info {
+    margin-top: 24px;
+    margin-left: 17px;
+  }
+  .content .menu article .button {
+    margin-top: 24px;
+    margin-left: 17px;
+  }
 }
 @media (min-width: 1024px) {
   .content .menu .food {
@@ -573,6 +585,21 @@ ul li {
   display: grid;
   grid-row: 1/2;
 }
+@media (min-width: 1024px) {
+  .content .footer .locations {
+    margin: none;
+    margin-left: 17px;
+  }
+  .content .footer .locations .sections {
+    margin-bottom: 24px;
+  }
+  .content .footer .locations h4 {
+    margin-bottom: 12px;
+  }
+  .content .footer .locations a {
+    margin-bottom: 12px;
+  }
+}
 .content .footer .addressnumber {
   display: grid;
   grid-template-columns: 30px 300px;
@@ -580,6 +607,14 @@ ul li {
 .content .footer .email {
   grid-column: 3/6;
   grid-row: 1/1;
+}
+@media (min-width: 1024px) {
+  .content .footer .email .sections {
+    margin-bottom: 24px;
+  }
+  .content .footer .email form input {
+    margin-bottom: 24px;
+  }
 }
 .content .footer .socials {
   grid-column: 3/6;
@@ -591,6 +626,9 @@ ul li {
 @media (min-width: 1024px) {
   .content .footer .socials {
     grid-column: 6/6;
+  }
+  .content .footer .socials .sections {
+    margin-bottom: 24px;
   }
 }
 
