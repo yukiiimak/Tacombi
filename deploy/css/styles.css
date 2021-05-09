@@ -598,6 +598,9 @@ ul li {
 .menu .food {
   font-family: "Roboto", sans-serif;
 }
+.menu .info {
+  font-family: "Cabin", sans-serif;
+}
 
 .footer .sections {
   font-family: "Roboto", sans-serif;
@@ -795,6 +798,7 @@ header .image {
   background-color: #FFF09B;
   border: none;
   padding: 5px 10px;
+  font-size: 15px;
 }
 .menu article {
   background-color: #E0FFF8;
@@ -803,6 +807,9 @@ header .image {
 .menu article h2 {
   font-weight: 500;
   font-size: 25px;
+}
+.menu article .info {
+  font-size: 20px;
 }
 .menu .entradas {
   background: url("../img/Salsa.2.jpg");
