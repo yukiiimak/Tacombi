@@ -381,6 +381,14 @@ ul li {
   grid-gap: 10px;
   margin-right: 16px;
 }
+@media (min-width: 1200px) {
+  .content .search {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 225px;
+    margin-right: 225px;
+  }
+}
 .content .hero-image {
   grid-area: hero-image;
 }
@@ -402,6 +410,7 @@ ul li {
 }
 .content .hero .strip1 .details {
   display: flex;
+  justify-content: flex-end;
 }
 .content .hero .strip1 .details h4 {
   margin-right: 10px;
