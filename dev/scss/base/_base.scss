@@ -89,7 +89,6 @@ ul {
 		.strip2 {
 			display: grid;
 			grid-gap: 14px;
-			margin-bottom: 24px;
 
 			.story {
 				display: grid;
@@ -134,7 +133,8 @@ ul {
 			@include lg {
 				width: 98%;
 				margin-left: 15px;
-				grid-template-columns: 50% auto;
+				grid-template-columns: 40% 40%;
+				justify-content: center;
 			}
 		}
 	}
@@ -174,15 +174,42 @@ ul {
 		}
 
 		@include lg {
-			.twotacos {
-				grid-area: twotacos;
-				display: none !important;
-			}
+			display: grid;
+			grid-template-columns: repeat(4,1fr);
+			grid-template-rows: repeat(4,1fr);
+			grid-template-areas: 
+			"threetacos threetacos juicetacos juicetacos"
+			"threetacos threetacos juicetacos juicetacos"
+			"threetacos threetacos juicetacos juicetacos"
+			"threetacos threetacos juicetacos juicetacos";
 
 			margin-left: 16px;
 			margin-right: 16px;
 			margin-bottom: 56px;
 			margin-top: 56px;
+		}
+
+		@include xl {
+			display: grid;
+			grid-template-columns: repeat(4,1fr);
+			grid-template-rows: repeat(4,1fr);
+			grid-template-areas: 
+			"threetacos threetacos juicetacos juicetacos"
+			"threetacos threetacos juicetacos juicetacos"
+			"threetacos threetacos twotacos twotacos"
+			"threetacos threetacos twotacos twotacos";
+
+			.threetacos {
+				grid-area: threetacos;
+			}
+
+			.juicetacos {
+				grid-area: juicetacos;
+			}
+
+			.twotacos {
+				grid-area: twotacos;
+			}
 		}
 	}
 
@@ -368,6 +395,10 @@ ul {
 					margin-bottom: 12px;
 				}
 			}
+
+			@include xl {
+				padding-left: 50px;
+			}
 		}
 
 		.addressnumber {
@@ -387,6 +418,8 @@ ul {
 				form input {
 					margin-bottom: 24px;
 				}
+
+				padding-left: 70px;
 			}
 		}
 
