@@ -526,6 +526,12 @@ ul li {
   }
 }
 @media (min-width: 768px) {
+  .content .menu .title {
+    display: grid;
+    grid-template-columns: 360px 360px;
+    grid-gap: 15px;
+    justify-content: center;
+  }
   .content .menu .food {
     display: grid;
     grid-template-columns: 360px 360px;
@@ -546,6 +552,11 @@ ul li {
   }
 }
 @media (min-width: 1024px) {
+  .content .menu .title {
+    display: grid;
+    grid-template-columns: 360px 360px 360px;
+    margin-bottom: 24px;
+  }
   .content .menu .food {
     display: grid;
     grid-template-columns: 360px 360px 360px;
@@ -553,10 +564,6 @@ ul li {
     margin-bottom: 56px;
     margin-left: 16px;
     margin-right: 16px;
-  }
-  .content .menu .title {
-    margin-left: 16px;
-    margin-bottom: 24px;
   }
   .content .menu article h2 {
     margin-top: 24px;

@@ -203,6 +203,14 @@ ul {
 		}
 
 		@include md {
+
+			.title {
+				display: grid;
+				grid-template-columns: 360px 360px;
+				grid-gap: 15px;
+				justify-content: center;
+			}
+
 			.food {
 				display: grid;
 				grid-template-columns: 360px 360px;
@@ -229,6 +237,13 @@ ul {
 		}
 
 		@include lg {
+
+			.title {
+				display: grid;
+				grid-template-columns: 360px 360px 360px;
+				margin-bottom: 24px;
+			}
+
 			.food {
 				display: grid;
 				grid-template-columns: 360px 360px 360px;
@@ -238,11 +253,6 @@ ul {
 				margin-bottom: 56px;
 				margin-left: 16px;
 				margin-right: 16px;
-			}
-
-			.title {
-				margin-left: 16px;
-				margin-bottom: 24px;
 			}
 
 			article {
