@@ -606,6 +606,26 @@ ul li {
     margin-top: 24px;
   }
 }
+@media (min-width: 576px) {
+  .content .footer .email {
+    margin-top: 16px;
+  }
+  .content .footer .socials {
+    margin-top: 16px;
+  }
+  .content .footer .sections {
+    margin-bottom: 16px;
+  }
+  .content .footer h4 {
+    margin-bottom: 8px;
+  }
+  .content .footer a {
+    margin-bottom: 8px;
+  }
+  .content .footer .button {
+    margin-top: 16px;
+  }
+}
 .content .footer .locations {
   display: grid;
   grid-row: 1/2;

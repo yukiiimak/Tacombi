@@ -304,6 +304,32 @@ ul {
 			}
 		}
 
+		@include sm {
+			.email {
+				margin-top: 16px;
+			}
+
+			.socials {
+				margin-top: 16px;
+			}
+
+			.sections {
+				margin-bottom: 16px;
+			}
+
+			h4 {
+				margin-bottom: 8px;
+			}
+
+			a {
+				margin-bottom: 8px;
+			}
+
+			.button {
+				margin-top: 16px;
+			}
+		}
+
 		.locations {
 			display: grid;
 			grid-row: 1 / 2;
