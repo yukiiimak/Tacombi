@@ -580,6 +580,18 @@ ul li {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 200px);
   }
+  .content .footer .sections {
+    margin-bottom: 24px;
+  }
+  .content .footer h4 {
+    margin-bottom: 12px;
+  }
+  .content .footer a {
+    margin-bottom: 12px;
+  }
+  .content .footer .button {
+    margin-top: 24px;
+  }
 }
 .content .footer .locations {
   display: grid;
