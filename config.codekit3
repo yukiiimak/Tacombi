@@ -768,8 +768,8 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/scss\/styles-min.css",
-      "oF" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 3,
       "pg" : 0
     },
     "\/dev\/scss\/styles.scss" : {
