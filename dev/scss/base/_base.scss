@@ -81,6 +81,14 @@ ul {
 				}
 			}
 
+			@include sm {
+				.details {
+					h4 {
+						display: none;
+					}
+				}	
+			}
+
 			@include md {
 				grid-template-columns: auto auto;
 			}
@@ -242,6 +250,7 @@ ul {
 
 			.title {
 				margin-bottom: 16px;
+				margin-left: 16px;
 			}
 
 			.food {
