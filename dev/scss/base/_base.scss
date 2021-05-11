@@ -91,6 +91,12 @@ ul {
 
 			@include md {
 				grid-template-columns: auto auto;
+
+				.details {
+					h4 {
+						display: grid;
+					}
+				}
 			}
 		}
 
