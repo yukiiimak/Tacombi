@@ -483,9 +483,7 @@ ul li {
 @media (min-width: 576px) {
   .content .images {
     display: grid;
-  }
-  .content .images .twotacos {
-    display: none !important;
+    grid-template-rows: 700px 800px;
   }
 }
 @media (min-width: 768px) {
@@ -503,7 +501,6 @@ ul li {
   }
   .content .images .twotacos {
     grid-area: twotacos;
-    display: none !important;
   }
 }
 @media (min-width: 1024px) {
@@ -634,6 +631,9 @@ ul li {
     grid-template-rows: repeat(2, 200px);
     padding-right: 56px;
   }
+  .content .footer .email {
+    grid-column: 3/5;
+  }
   .content .footer .sections {
     margin-bottom: 24px;
   }
@@ -696,7 +696,7 @@ ul li {
   grid-template-columns: 30px 300px;
 }
 .content .footer .email {
-  grid-column: 3/6;
+  grid-column: 3/3;
   grid-row: 1/1;
 }
 @media (min-width: 1024px) {
@@ -833,6 +833,13 @@ header .image {
   font-weight: 400;
   font-size: 20px;
 }
+@media (min-width: 768px) {
+  .footer .email form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
 .footer .email form input {
   border: none;
   padding-top: 16px;
@@ -965,22 +972,39 @@ header .image {
   background: url("../img/Collage1used.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 100%;
 }
 .images .juicetacos {
   background: url("../img/Collage2used.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 595px;
 }
 .images .twotacos {
   background: url("../img/Collage3used.png");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 595px;
+  display: none;
+}
+@media (min-width: 768px) {
+  .images .threetacos {
+    width: 100%;
+    height: 500px;
+  }
+}
+@media (min-width: 1024px) {
+  .images .threetacos {
+    height: 700px;
+  }
+  .images .twotacos {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .images .threetacos {
+    height: 700px;
+  }
+  .images .twotacos {
+    display: inline;
+  }
 }
 
 .menu .title {

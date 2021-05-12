@@ -159,10 +159,7 @@ ul {
 
 		@include sm {
 			display: grid;
-
-			.twotacos{
-				display: none !important;
-			}
+			grid-template-rows: 700px 800px;
 		}
 
 		@include md {
@@ -183,7 +180,6 @@ ul {
 
 			.twotacos {
 				grid-area: twotacos;
-				display: none !important;
 			}
 		}
 
@@ -347,6 +343,10 @@ ul {
 			grid-template-rows: repeat(2, 200px);
 			padding-right: 56px;
 
+			.email {
+				grid-column: 3 / 5;
+			}
+
 			.sections {
 				margin-bottom: 24px;
 			}
@@ -422,7 +422,7 @@ ul {
 		}
 
 		.email {
-			grid-column: 3 / 6;
+			grid-column: 3 / 3;
 			grid-row: 1 / 1;
 
 			@include lg {

@@ -3,23 +3,45 @@
         background: url("../img/Collage1used.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
-        height: 100%;
     }
 
     .juicetacos {
         background: url("../img/Collage2used.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
-        height: 595px;
     }
 
     .twotacos {
         background: url("../img/Collage3used.png");
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
-        height: 595px;
+        display: none;
+    }
+
+    @include md {
+        .threetacos {
+            width: 100%;
+            height: 500px;
+        }
+    }
+
+    @include lg {
+        .threetacos {
+            height: 700px;
+        }
+
+        .twotacos {
+            display: none;
+        }
+    }
+
+    @include xl {
+        .threetacos {
+            height: 700px;
+        }
+
+        .twotacos {
+            display: inline;
+        }
     }
 }
